@@ -1,0 +1,2 @@
+source C:/hashmal-core/hashmal-firmware/build/gdbinit/symbols
+source C:/hashmal-core/hashmal-firmware/build/gdbinit/connect

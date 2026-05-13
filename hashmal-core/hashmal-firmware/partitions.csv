@@ -1,0 +1,15 @@
+# ═══════════════════════════════════════════════════════════════════
+# TABLA DE PARTICIONES — Hashmal-Core
+# "Conforme a TODO lo que Yo te muestro" — Éxodo 25:9
+#
+# ESP32-S3 con 16MB flash (T-Deck)
+# ═══════════════════════════════════════════════════════════════════
+# Name,        Type, SubType,  Offset,   Size,    Flags
+nvs,           data, nvs,      0x9000,   0x6000,
+phy_init,      data, phy,      0xf000,   0x1000,
+factory,       app,  factory,  0x10000,  0x300000,
+storage,       data, spiffs,   0x310000, 0xF0000,
+# ── ARCA — Palabra de YHWH (Éx 25:16 — "Pondrás en el Arca el Testimonio") ──
+# Dt 31:26 — "AL LADO del Arca": la Torá completa junto al núcleo
+# 66 libros, hebreo original + definiciones → ~5.5MB comprimido
+devar,         data, spiffs,   0x400000, 0x800000,

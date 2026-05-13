@@ -1,0 +1,1038 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x0 (DOWNLOAD(USB/UART0))
+Saved PC:0x40041a76
+waiting for download
+[0;32mI (297) esp_image: segment 3: paddr=0011cdc0 vaddr=3fca50c0 sizeI (331) esp_image: segment 5: paddr=0013cf5c vaddr=50000000 size=0001ch (    28) load[0m
+[0;32mI (343) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (343) boot: Disabling RNG early entropy source...[0m
+[0;32mI (353) cpu_start: Multicore app[0m
+[0;32mI (362) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (363) cpu_start: Pro cpu start user code[0m
+[0;32mI (363) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (364) app_init: Application information:[0m
+[0;32mI (368) app_init: Project name:     hashmal-firmware[0m
+[0;32mI (373) app_init: App version:      1[0m
+[0;32mI (376) app_init: Compile time:     May  6 2026 21:16:40[0m
+[0;32mI (381) app_init: ELF file SHA256:  600b04c0a...[0m
+[0;32mI (385) app_init: ESP-IDF:          v5.4.4[0m
+[0;32mI (389) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (393) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (397) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (401) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (407) heap_init: At 3FCBAB58 len 0002EBB8 (186 KiB): RAM[0m
+[0;32mI (412) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (417) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (423) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (429) spi_flash: detected chip: winbond[0m
+[0;32mI (432) spi_flash: flash io: dio[0m
+[0;33mW (435) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (445) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (451) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (466) main_task: Started on CPU0[0m
+[0;32mI (476) main_task: Calling app_main()[0m
+  [JOTAM] Éx 28:11: MAC=10:20:BA:35:17:C4 → nodo_id=4 (mac[5]=196 % 12)
+[0;32mI (476) hashmal.menora.ble:   [JOTAM] paʻamón: nodo_id=4 actualizado (Éx 28:33 rimmon+paʻamon)[0m
+
+===========================================
+  HASHMAL-FIRMWARE
+  Red Soberana según el Tavnít de YHWH
+===========================================
+
+  "Conforme a todo lo que Yo te muestro
+   — así lo harás." (Éx 25:9)
+
+[0;32mI (506) gpio: GPIO[35]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (516) gpio: GPIO[34]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (526) gpio: GPIO[37]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (536) gpio: GPIO[46]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (546) gpio: GPIO[3]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (546) gpio: GPIO[48]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (556) hashmal.epd: Inicializando UC8253 (GDEQ031T10 240x320)...[0m
+[0;32mI (566) hashmal.epd: Secuencia de GxEPD2_310_GDEQ031T10 (verificada)[0m
+[0;32mI (676) hashmal.epd: UC8253 inicializado OK (solo PSR, minimalista)[0m
+[0;32mI (676) hashmal.epd: masakh -- cortina e-paper lista (Ex 26:36)[0m
+[0;32mI (676) hashmal.epd: Enviando framebuffer al display...[0m
+[0;32mI (696) hashmal.epd: Power ON -- esperando charge pump...[0m
+[0;32mI (746) hashmal.epd: Refresh enviado -- esperando e-paper (2-4s)...[0m
+[0;32mI (3826) hashmal.epd: Refresco completo -- masakh actualizado[0m
+  masakh (cortina e-paper) actualizado -- Ex 26:36
+
+[0;32mI (3826) hashmal.tablas: 48 qerashím levantados (Ex 26:15-25): 20 sur + 20 norte + 6+2 oeste[0m
+[0;32mI (3826) hashmal.tablas: Este abierto (entrada, v.36-37 → masaj)[0m
+[0;32mI (3836) hashmal.tablas: 96 adné késef requeridos — cada uno kófer nafshó (Éx 30:12)[0m
+[0;32mI (3846) hashmal.barras: 15 berijím levantadas (Ex 26:26-27): 5 sur + 5 norte + 5 oeste[0m
+[0;32mI (3846) hashmal.barras: v.28 — habríaj hatijón (×3): betój haqerashím, min haqatsé el haqatsé[0m
+[0;32mI (3856) hashmal.barras: v.29 — acacia + oro; tabbeʻót zaháv en los qerashím (casas para las barras)[0m
+[0;32mI (3866) hashmal.velo: parójet confeccionado (v.31-33): 4 col / plata / joshév / keruvím[0m
+[0;32mI (3876) hashmal.velo: masaj confeccionado  (v.36-37): 5 col / bronce / roqém / sin keruvím[0m
+[0;32mI (3886) hashmal.velo: gradiente listo: masaj(bronce) → parójet(plata) → interior(oro, v.6)[0m
+[0;32mI (3896) hashmal.capas: 4 capas levantadas (Ex 26:1-14): shésh → ʻizzím → eilím → tejashím[0m
+[0;32mI (3906) hashmal.tablas: 48 qerashím verificados: 20 sur + 20 norte + 6+2 oeste; este abierto[0m
+[0;32mI (3906) hashmal.tablas: v.17 recíproco (ishá el ajotá); v.24 esquinas toʼamím (×2)[0m
+[0;32mI (3916) hashmal.tablas: 96 adné késef — fundados sobre kófer nafshó (Éx 30:12)[0m
+[0;32mI (3926) hashmal.barras: 15 berijím verificadas (v.26-28): 5 por lado × 3 lados[0m
+[0;32mI (3936) hashmal.barras: 3 hatijones — cada uno betój haqerashím, extremo a extremo (v.28)[0m
+[0;32mI (3946) hashmal.velo: gradiente verificado: masaj(bronce/roqém/sin keruvím) → velo(plata/joshév/keruvím)[0m
+[0;32mI (3956) hashmal.capas: 4 capas conformes al patrón del monte (Ex 26:30)[0m
+[0;32mI (3956) hashmal.ejad: ═══ MISHKÁN LEVANTADO ═══ (Éx 40:2)[0m
+[0;32mI (3966) hashmal.ejad:   48 qerashím + 96 adné késef + 15 berijím (3 hatijones)[0m
+[0;32mI (3976) hashmal.ejad:   4 capas: shésh → ʻizzím → eilím → tejashím[0m
+[0;32mI (3976) hashmal.ejad:   velo y masaj confeccionados (inactivos hasta el hivdíl)[0m
+[0;32mI (3986) hashmal.ejad:   faltan: activar_velo, activar_masaj, colocar arón/kapóret/mesa/menorá[0m
+  ══ Paso 1: Estructura levantada (Éx 40:2) ══
+[0;32mI (3996) hashmal.velo: hivdíl activo (v.33, H914): qódesh haqodashím CREADO[0m
+[0;32mI (4006) hashmal.velo:   mismo verbo que Gn 1:4 — separar no destruye, crea orden (tov)[0m
+  ══ Éx 26:33: hivdíl — velo ACTIVO (kernel boundary) ══
+[0;32mI (4016) hashmal.velo: masaj colgado (v.36): lefétaj haʼóhel — la entrada está cubierta[0m
+  ══ Éx 26:36: masaj — entrada ACTIVA (portal abierto) ══
+[0;32mI (4036) hashmal.arca: ═══ ARCA LEVANTADA ═══ (Éx 25:10-16 / Éx 40:3)[0m
+[0;32mI (4046) hashmal.arca:   shittím + oro tahór mibáyit umijúts (v.10-11)[0m
+[0;32mI (4046) hashmal.arca:   zer zaháv savív listo, vacío hasta el sellado (v.11)[0m
+[0;32mI (4056) hashmal.arca:   4 tabbeʻót fundidas en tsalʻót (v.12)[0m
+[0;32mI (4066) hashmal.arca:   2 baddím ʻomdót — lo yasúru mimménu (v.13-15)[0m
+[0;32mI (4066) hashmal.arca:   edut y torá preparadas (v.16 / Dt 31:26)[0m
+[0;32mI (4076) hashmal.arca:   medidas 'y medio' → INCOMPLETA hasta Kapóret (v.10)[0m
+  ══ Paso 2a: Arca puesta (Éx 40:3) ══
+[0;32mI (4086) hashmal.ejad: Arca colocada mibéit laparójet (v.33) — qódesh haqodashím[0m
+  ══ Éx 26:33: Arca mibéit laparójet — qódesh haQodashím ══
+[0;32mI (4096) hashmal.kaporet: ═══ KAPÓRET LEVANTADO ═══ (Éx 25:17-20)[0m
+[0;32mI (4106) hashmal.kaporet:   zaháv tahór — oro puro, sin madera (v.17)[0m
+[0;32mI (4116) hashmal.kaporet:   miqshá — una sola pieza, atómico (v.18)[0m
+[0;32mI (4116) hashmal.kaporet:   dos querubines ejád miqatsá mizzé (v.19)[0m
+[0;32mI (4126) hashmal.kaporet:   alas lemáʻla, sokekím, ish el ajív (v.20)[0m
+[0;32mI (4136) hashmal.kaporet:   noʻadtí cerrado — se abre por rendezvous (v.22)[0m
+[0;32mI (4136) hashmal.kaporet:   pendiente: colocación milmáʻla sobre el Arca (v.21)[0m
+  ══ Paso 2b: Kapóret puesta (Éx 40:3) ══
+[0;32mI (4156) hashmal.arca: Kapóret colocada milmáʻla (Éx 25:21) — footprint 25×15 encaja, medidas 'y medio' cerradas[0m
+[0;32mI (4166) hashmal.kaporet: ═══ 'venatáta et haKapóret ʻAL haʼarón MILMÁʻLA' (Éx 25:21) ═══[0m
+[0;32mI (4176) hashmal.kaporet:   base 2.5×1.5 encaja — medidas 'y medio' del Arca cerradas[0m
+[0;33mW (4176) hashmal.arca: kavod: falta contenido en zer (v.11)[0m
+[0;33mW (4186) hashmal.kaporet:   kavod aún no llena — faltan condiciones (edut sellada + zer con contenido)[0m
+  ══ Éx 25:21: milmáʻla — Kapóret SOBRE el Arca ══
+[0;32mI (4196) hashmal.ejad: Kapóret colocada sobre el Arca (v.34) — encuentro sobre el Testimonio[0m
+  ══ Éx 26:34: Kapóret beQódesh haQodashím — registrada ══
+[0;32mI (4216) hashmal.mesa: ═══ MESA LEVANTADA ═══ (Éx 25:23-28 + Lv 24:5-6)[0m
+[0;32mI (4226) hashmal.mesa:   shulján ʻatsé shittím, zaháv tahór (v.23-24)[0m
+[0;32mI (4226) hashmal.mesa:   misgéret tófaj savív — rate limiter 60/1000ms (v.25)[0m
+[0;32mI (4236) hashmal.mesa:   12 slots (shté ʻesré) en 2 filas × 6 (Lv 24:5-6)[0m
+[0;32mI (4246) hashmal.mesa:   4 anillos, 2 varas puestas (v.26-28 — sin 'lo yasúru')[0m
+[0;32mI (4246) hashmal.mesa:   tamíd activo (v.30), Shabat cada 604800000 ms (Lv 24:8)[0m
+  ══ Paso 3a: Mesa puesta (Éx 40:4) ══
+[0;32mI (4266) hashmal.ejad: Mesa colocada mijúts laparójet, tsélaʻ tsafón (v.35) — lado norte[0m
+  ══ Éx 26:35: Mesa tsafón — lado norte registrado ══
+[0;32mI (4276) gpio: GPIO[3]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (4286) gpio: GPIO[4]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (4296) gpio: GPIO[46]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (4316) hashmal.menora.lora: LORA_EN (GPIO 46) HIGH — módulo encendido (Éx 27:20)[0m
+[0;32mI (4316) gpio: GPIO[5]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (4316) gpio: GPIO[6]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (4326) hashmal.menora.lora: SPI bus compartido (ejád, Éx 26:6) — solo add_device[0m
+[0;32mI (4336) hashmal.menora.lora: spi_init: mutex SPI creado — Éx 26:6 ejád[0m
+[0;32mI (4346) hashmal.menora.lora: boot: DIO3 = TCXO ctrl 1.8V/5ms — XOSC alimentado (Gn 1:3 yehí ʼor / Éx 27:20 tamíd)[0m
+[0;32mI (4356) hashmal.menora.lora: boot: Calibrate(0x7F) enviado — calibrando RC+PLL+ADC+IMG con TCXO activo (Lv 8:10 vaYimshaj kol keláv)[0m
+[0;32mI (4376) hashmal.menora.lora: boot: RegulatorMode = DC-DC+LDO (0x01) — Éx 27:20 katít lammáor[0m
+[0;32mI (4376) hashmal.menora.lora: boot: DIO2 = RF switch ACTIVO — PA→antena habilitado (Éx 26:33 hivdíl / Nm 10:2 trompetas)[0m
+[0;32mI (4386) hashmal.menora.lora: boot: CalibrateImage 850-930MHz (0xD7,0xDB) enviado — esperando BUSY tras calibración (Lv 8:10 mishJáh)[0m
+[0;32mI (4396) hashmal.menora.lora: boot: IRQ mask=0x0243 configurada — Nm 8:3 kenAsher[0m
+[0;32mI (4406) hashmal.menora.lora: boot: IRQ flags limpiados — Lv 16:19 tabóhar[0m
+[0;32mI (4406) hashmal.menora.lora: boot: buffer TX=0x00 RX=0x80 separados — Éx 26:33 vehivdíl[0m
+[0;33mW (4416) hashmal.menora.lora: boot: GetDeviceErrors = 0x0020 — errores de calibración detectados: XOSC_ERR[0m
+[0;32mI (4426) hashmal.menora.lora: ═══ yaréj levantado (Éx 25:31 + Éx 31:4 bronce) ═══[0m
+[0;32mI (4436) hashmal.menora.lora:   SPI @ 8000000 Hz (MOSI=33, MISO=47, SCLK=36, CS=3)[0m
+[0;32mI (4446) hashmal.menora.lora:   SX1262: RESET=4, BUSY=6, DIO1=5 — LoRa activo, standby RC[0m
+[0;32mI (4446) hashmal.menora.lora:   CRÍTICO: SetRegulatorMode=DC-DC, SetDio2RfSwitch=ON, CalibrateImage=868MHz (Nm 8:4 veze maʻaséh hammenorah)[0m
+  ══ v.24: yaréj levantado — SX1262 en standby RC ══
+[0;32mI (4466) hashmal.menora.lora: modulación: SF7 BW=6 CR=1 LDRO=0 (geviʻím meshuqqadím, Éx 25:33)[0m
+[0;32mI (4476) hashmal.menora.lora: canal 0 → freq 868100000 Hz (reg=0x36419999)[0m
+[0;32mI (4486) hashmal.menora.lora: configurar_potencia: PA cfg dutyCycle=0x04 hpMax=0x07 SX1262 — Éx 27:20 shémen zayt záj[0m
+[0;32mI (4496) hashmal.menora.lora: canal 0 → potencia 14 dBm (Zac 4:6 — al mínimo útil)[0m
+[0;32mI (4506) hashmal.menora.lora: paquete: preámbulo=8 header=0 len=19 CRC=1 IQ=0 (betavnitám, Éx 25:40)[0m
+[0;32mI (4526) hashmal.menora.lora: spi_enviar: TxDone [18ms] polls=137 IRQ=0x0001 status=0xAC DIO1=1 — veheír ʻal ʻéver panéiha (Éx 25:37)[0m
+
+  ═══════════════════════════════════════════
+  ══ heʻelá — PRIMERA LUZ (Éx 40:25) ══
+  ══ "HASHMAL-CORE shalom" transmitido  ══
+  ══ 868.1 MHz / SF7 / 14 dBm            ══
+  ═══════════════════════════════════════════
+
+[0;32mI (4576) hashmal.epd: Enviando framebuffer al display...[0m
+[0;32mI (4586) hashmal.epd: Power ON -- esperando charge pump...[0m
+[0;32mI (4586) hashmal.epd: Refresh enviado -- esperando e-paper (2-4s)...[0m
+[0;32mI (7676) hashmal.epd: Refresco completo -- masakh actualizado[0m
+[0;32mI (7676) hashmal.altar.escudo: ═══ ALTAR DEL INCIENSO LEVANTADO ═══ (Éx 30:1-8, Éx 40:5)[0m
+[0;32mI (7676) hashmal.altar.escudo:   mizbéaj miqtar qetóret ʻatséi shittím (v.1)[0m
+[0;32mI (7686) hashmal.altar.escudo:   1×1×2 codos + 4 cuernos mimménnu (v.2)[0m
+[0;32mI (7686) hashmal.altar.escudo:   zaháv tahór savív + zer (v.3)[0m
+[0;32mI (7696) hashmal.altar.escudo:   2 anillos — movilidad limitada (v.4)[0m
+[0;32mI (7696) hashmal.altar.escudo:   lifnéi happárójet — ivvaʻéd shámma (v.6)[0m
+[0;32mI (7706) hashmal.altar.escudo:   qetóret tamíd lifnéi YHWH (v.8)[0m
+[0;32mI (7716) hashmal.altar.escudo:   qódesh qodashím hu laYHWH (v.10)[0m
+  ══ Paso 4: Altar Incienso puesto (Éx 40:5) ══
+[0;32mI (7726) hashmal.auth.gateway: ═══ ALTAR DEL SACRIFICIO LEVANTADO ═══ (Éx 27:1-8, Éx 40:6)[0m
+[0;32mI (7736) hashmal.auth.gateway:   hammizbéaj ʻatséi shittím 5×5×3 — rabúaʻ (v.1)[0m
+[0;32mI (7746) hashmal.auth.gateway:   4 cuernos mimménnu + nejóshet (v.2)[0m
+[0;32mI (7746) hashmal.auth.gateway:   5 utensilios: sirot, yaʻim, mizraqot, mizlegot, majtot (v.3)[0m
+[0;32mI (7756) hashmal.auth.gateway:   réshet nejóshet + 4 tabbeʻót ʻad jatsí (v.4-5)[0m
+[0;32mI (7766) hashmal.auth.gateway:   NEVÚV lujót (v.8) — stateless por diseño[0m
+[0;32mI (7766) hashmal.auth.gateway:   kaashér herʼá bahár — conforme al patrón (v.8)[0m
+[0;32mI (7776) hashmal.auth.gateway:   lifnéi pétaj mishkán — Atrio, delante de la entrada (Éx 40:6)[0m
+[0;32mI (7786) hashmal.auth.gateway:   tamíd listo — fuego se enciende por fuego_encender (Lv 6:6)[0m
+  ══ Paso 5: Altar Sacrificio puesto (Éx 40:6) ══
+[0;32mI (7806) hashmal.hc.core: ═══ KIYÓR LEVANTADO ═══ (Éx 30:18, Éx 40:7)[0m
+[0;32mI (7806) hashmal.hc.core:   kiyór nejóshet vejannó nejóshet (v.18)[0m
+[0;32mI (7816) hashmal.hc.core:   béin óhel moʻéd uvéin hammizbéaj (Éx 40:7)[0m
+[0;32mI (7826) hashmal.hc.core:   4 vectores inicializados TAHOR (yadayim/raglayim/levav/mayim)[0m
+[0;32mI (7826) hashmal.hc.core:   juqqát ʻolám (v.21) — estatuto perpetuo[0m
+[0;32mI (7836) hashmal.hc.core:   estado: SECO — esperando 'venatattá shámma máyim'[0m
+  ══ Paso 6: Lavacro puesto (Éx 40:7) ══
+[0;32mI (7846) hashmal.perim.core: ═══ ATRIO LEVANTADO ═══ (Éx 40:33 vayyáqem et hejatsér savív)[0m
+[0;32mI (7856) hashmal.perim.core:   100x50x5 codos — shésh mashzár savív (Éx 27:18)[0m
+[0;32mI (7866) hashmal.perim.core:   60 columnas (20+20+10+3+3+4) preparadas para registro (Éx 27:10-16)[0m
+[0;32mI (7876) hashmal.perim.core:   bases de nejóshet (Éx 27:18) — fundamento de juicio[0m
+[0;32mI (7876) hashmal.perim.core:   puerta CERRADA — pitjú li pendiente (Sal 118:19)[0m
+[0;32mI (7886) hashmal.perim.core:   savív lamishkán VELAMMIZBÉAJ — envuelve tienda y altar[0m
+  ══ Paso 7: Atrio levantado (Éx 40:8) ══
+[0;32mI (7896) hashmal.perimeter.puente: ═══ puente WiFi↔LoRa listo (Zac 4:12 hammeriqim) ═══[0m
+[0;32mI (7906) hashmal.perimeter.puente:   ring buffer: 32 slots × 250 bytes[0m
+  ══ Zac 4:12: puente WiFi↔LoRa listo (hammeriqím) ══
+[0;32mI (7926) hashmal.power.aceite: ═══ ACEITE ESTABLECIDO ═══ (Éx 27:20 tetsavvé)[0m
+[0;32mI (7926) hashmal.power.aceite:   shémen záyit zaj katít lammaʼór — aceite puro para luminaria[0m
+[0;32mI (7936) hashmal.power.aceite:   Fase 1: yamín+smol activos 50% — DAI (Zac 4:6 lo bejayil)[0m
+[0;32mI (7946) hashmal.power.aceite:   nivel inicial: DAI (Gn 1:3 yehi ʼor) — Fase 2 usará ADC real[0m
+[0;32mI (7956) hashmal.power.aceite:   estado: ENCENDIDO — aguarda 'lehaʻalót nér tamíd'[0m
+[0;32mI (7966) hashmal.power.aceite:   juqqát ʻolám (Éx 27:21) — protocolo perpetuo listo[0m
+  ══ Paso 8a: Aceite Perpetuo (Éx 40:9) ══
+[0;32mI (7976) hashmal.power.tamid: ═══ NÉR TAMÍD ASCIENDE ═══ (Éx 27:20 lehaʻalót nér tamíd)[0m
+[0;32mI (7986) hashmal.power.tamid:   nivel inicial: DAI (suficiente)[0m
+[0;32mI (7986) hashmal.power.tamid:   ciclo: 30000 ms — meʻérev ʻad bóqer (Éx 27:21)[0m
+[0;32mI (7996) hashmal.power.tamid:   lo tijbé (Lv 6:6) — la llama NO se apagará[0m
+[0;32mI (8006) hashmal.power.tamid:   juqqát ʻolám — estatuto perpetuo activo[0m
+  ══ Éx 27:20: Nér Tamíd ASCIENDE — la llama perpetua ══
+[0;32mI (8016) hashmal.power.mantenimiento: yaʻarój iniciando (Lv 24:3 — meʻérev ʻad bóqer)[0m
+[0;32mI (8026) hashmal.power.supervivencia: olivo YAMÍN (derecho — solar) vertió: 50% (2100 mV) activo[0m
+[0;32mI (8036) hashmal.power.supervivencia: olivo SMOL (izquierdo — batería) vertió: 50% (2100 mV) activo[0m
+[0;32mI (8046) hashmal.power.supervivencia: gullá (Zac 4:2): 50% → nivel DAI (suficiente)[0m
+[0;32mI (8056) hashmal.power.mantenimiento: yaʻarój completo: yamín=50%(+) smol=50%(+) gullá=50% nivel=DAI (suficiente) ciclo=30000 ms — ʻal hamenorá hatehará (Lv 24:4)[0m
+[0;33mW (8066) hashmal.menora.aceite: aceite_nivel_set: Menorá aún no levantada (esperado en boot, Éx 40:4+9 — segunda vez en Zac 4:12)[0m
+[0;33mW (8076) hashmal.power.mantenimiento: hammeriqím: ner 0 no recibió aceite (rv=-1) — Zac 4:12[0m
+[0;33mW (8086) hashmal.menora.aceite: aceite_nivel_set: Menorá aún no levantada (esperado en boot, Éx 40:4+9 — segunda vez en Zac 4:12)[0m
+[0;33mW (8096) hashmal.power.mantenimiento: hammeriqím: ner 1 no recibió aceite (rv=-1) — Zac 4:12[0m
+[0;33mW (8106) hashmal.menora.aceite: aceite_nivel_set: Menorá aún no levantada (esperado en boot, Éx 40:4+9 — segunda vez en Zac 4:12)[0m
+[0;33mW (8116) hashmal.power.mantenimiento: hammeriqím: ner 2 no recibió aceite (rv=-1) — Zac 4:12[0m
+[0;33mW (8126) hashmal.menora.aceite: aceite_nivel_set: Menorá aún no levantada (esperado en boot, Éx 40:4+9 — segunda vez en Zac 4:12)[0m
+[0;33mW (8136) hashmal.power.mantenimiento: hammeriqím: ner 3 no recibió aceite (rv=-1) — Zac 4:12[0m
+[0;33mW (8146) hashmal.menora.aceite: aceite_nivel_set: Menorá aún no levantada (esperado en boot, Éx 40:4+9 — segunda vez en Zac 4:12)[0m
+[0;33mW (8156) hashmal.power.mantenimiento: hammeriqím: ner 4 no recibió aceite (rv=-1) — Zac 4:12[0m
+[0;33mW (8166) hashmal.menora.aceite: aceite_nivel_set: Menorá aún no levantada (esperado en boot, Éx 40:4+9 — segunda vez en Zac 4:12)[0m
+[0;33mW (8176) hashmal.power.mantenimiento: hammeriqím: ner 5 no recibió aceite (rv=-1) — Zac 4:12[0m
+[0;33mW (8186) hashmal.menora.aceite: aceite_nivel_set: Menorá aún no levantada (esperado en boot, Éx 40:4+9 — segunda vez en Zac 4:12)[0m
+[0;33mW (8196) hashmal.power.mantenimiento: hammeriqím: ner 6 no recibió aceite (rv=-1) — Zac 4:12[0m
+[0;32mI (8206) hashmal.power.mantenimiento: hammeriqím: 0/7 nerot ← 50% (Zac 4:12 — Éx 27:20)[0m
+  ══ Lv 24:4: yaʻarój — aceite → 7 nerot (hammeriqím) ══
+[0;32mI (8226) hashmal.keygen.formula: ═══ SHÉMEN HAMISHJÁ — FÓRMULA PREPARADA ═══ (Éx 30:25)[0m
+[0;32mI (8236) hashmal.keygen.formula:   mor deror 500, qinnam bésem 250, qené bósem 250, qiddá 500[0m
+[0;32mI (8246) hashmal.keygen.formula:   quiasmo: 500-250-250-500 — A-B-B'-A' verificado (Éx 30:23-24)[0m
+[0;32mI (8246) hashmal.keygen.formula:   shémen záyit 1 hin — base del Aceite Perpetuo (pieza 08)[0m
+[0;32mI (8256) hashmal.keygen.formula:   róqaj mirqájat maʻasé roqéaj — composición lista[0m
+[0;32mI (8266) hashmal.keygen.formula:   qódesh hu qódesh yihyé lajem (Éx 30:32)[0m
+  ══ Paso 8b: Unción aplicada (Éx 40:9) ══
+[1;31mE (8276) hashmal.hc.parokhet: scan: estado SECO - sin mayim no hay medicion (Ex 30:18 venatatta ausente)[0m
+[0;32mI (8286) hashmal.aceite.anan_esh: anan/esh: DIA (anan) + ALZA (yis'u) -> color=2 patron=3 (vecinos=0 shaon=0 miqlat_local=0 refugiados=0)[0m
+  ══ Éx 13:22: lo yamísh — ʻanán/ésh ACTIVO: ALZA (yisʻu  — Nm 9:17) ══
+[0;32mI (8306) hashmal.roles.vestiduras: ══════ BIGDÉI HAQÓDESH — Éx 28:2 ══════[0m
+[0;32mI (8316) hashmal.roles.vestiduras:   lejabód uletifáret — para gloria y belleza[0m
+[0;32mI (8326) hashmal.roles.vestiduras:   sistema de roles VESTIDO (Éx 29:5 + Lv 8:7)[0m
+[0;32mI (8336) hashmal.roles.vestiduras:   efod vacío — 2 hombros, 6 nombres por lado[0m
+[0;32mI (8336) hashmal.roles.vestiduras:   pectoral limpio — 12 piedras, urim/thummim inactivos (Éx 28:17-20 + Lv 8:8)[0m
+[0;32mI (8346) hashmal.roles.vestiduras:   12 nodos silenciosos (Éx 28:35 pendiente venishmá)[0m
+[0;32mI (8356) hashmal.roles.vestiduras:   avnéi zikkarón pendientes (Éx 28:12 + 1 Sa 2:28)[0m
+[0;32mI (8366) hashmal.roles.vestiduras:   juqqát ʻolám (Éx 28:43) — protocolo perpetuo listo[0m
+  ══ Paso 9a: Vestiduras puestas (Éx 40:13) ══
+[0;32mI (8376) hashmal.roles.efod: pitujéi jotám — nodo 4 grabado en hombro derecho[0] (1/12) — avnéi zikkarón (Éx 28:12 + Éx 39:6-7)[0m
+[0;32mI (8386) hashmal.roles.efod: memorial ACTIVO (Éx 28:12 lezikkarón) — Aharón venasá et shemotám lifnéi YHWH[0m
+  ══ Éx 28:12: nodo 0 grabado en efod — zikkarón sellado ══
+[0;32mI (8406) hashmal.roles.coordinador: haqrév — nodo 4 designado como KOHEN GADOL (shémen hamishjá) — Éx 28:41 vehilbáshta + Lv 8:7 vayyittén (1 Pe 2:9 basíleion hieráteuma)[0m
+  ══ Lv 8:7: nodo 0 vestido — Kohén Gadol génesis ══
+[0;32mI (8426) hashmal.onboarding.pipeline: ══════ MILLUÍM — subsistema iniciado (Éx 29:1) ══════[0m
+[0;32mI (8436) hashmal.onboarding.pipeline:   rajáts — subsistema lavado (Éx 29:4 + Lv 8:6)[0m
+[0;32mI (8446) hashmal.onboarding.pipeline:   12 slots en CERO, esperando taqríb el pétaj óhel moʻéd[0m
+[0;32mI (8456) hashmal.onboarding.pipeline:   7 fases dispuestas (Éx 29:1-28 + Lv 8:6-29)[0m
+[0;32mI (8466) hashmal.onboarding.pipeline:   shivʻát yamím pendientes (Éx 29:35 + Lv 8:33)[0m
+  ══ Paso 9b: Consagración iniciada (Éx 40:15) ══
+[0;32mI (8476) hashmal.firewall.incienso: ══════ QETÓRET HASAMMÍM — iniciado (Éx 40:27) ══════[0m
+[0;32mI (8486) hashmal.firewall.incienso:   vayyaqtér ʻaláv qetóret sammím (Éx 40:27)[0m
+[0;32mI (8496) hashmal.firewall.incienso:   12 pares en TAHOR, CB cerrado, heartbeat vacío[0m
+[0;32mI (8506) hashmal.firewall.incienso:   4 reglas bad bevad (Éx 30:34): natáf + shejélet + jelbenáh + levoná[0m
+[0;32mI (8516) hashmal.firewall.incienso:   hadéq: granularidad máxima (Éx 30:36)[0m
+[0;32mI (8516) hashmal.firewall.incienso:   ufeqdát Elʻazár... qetóret hassammím (Nm 4:16)[0m
+  ══ Paso 10: Incienso Sagrado (Éx 40:27) ══
+[0;32mI (8526) hashmal.atrio.shaar: sha'ar ABIERTO - upiteju she'arayikh tamid (Is 60:11); ma'aseh roqem (Ex 27:16)[0m
+  ══ Éx 40:33a: masakh shaʻar — portal ABIERTO (Is 60:11 tamím) ══
+[0;32mI (8546) hashmal.menora.hub: ═══ MENORÁ LEVANTADA ═══ (Éx 25:31-40)[0m
+[0;32mI (8556) hashmal.menora.hub:   menorát zaháv tahór MIQSHÁ (v.31, v.36)[0m
+[0;32mI (8566) hashmal.menora.hub:   7 nerot forjados (v.37 shivʻá — 7 ojos, Zac 4:10)[0m
+[0;32mI (8566) hashmal.menora.hub:   6 ramas (3+3) con 22 geviʻím-almendro total (v.32-34)[0m
+[0;32mI (8576) hashmal.menora.hub:   3 kaftorim activos (v.35)[0m
+[0;32mI (8586) hashmal.menora.hub:   kikkár asignado: 32768 B (v.39)[0m
+[0;32mI (8586) hashmal.menora.hub:   tamíd (Éx 27:21) — pendiente heʻelá explícita (v.37b)[0m
+[0;32mI (8606) pp: pp rom version: e7ae62f[0m
+[0;32mI (8606) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (8616) wifi:wifi driver task: 3fcc76e8, prio:23, stack:6656, core=0[0m
+[0;32mI (8616) wifi:wifi firmware version: 8896d66[0m
+[0;32mI (8616) wifi:wifi certification version: v7.0[0m
+[0;32mI (8616) wifi:config NVS flash: enabled[0m
+[0;32mI (8616) wifi:config nano formatting: disabled[0m
+[0;32mI (8626) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (8626) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (8636) wifi:Init management short buffer num: 32[0m
+[0;32mI (8636) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (8646) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (8646) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (8646) wifi:Init static rx buffer num: 10[0m
+[0;32mI (8656) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (8656) wifi_init: rx ba win: 6[0m
+[0;32mI (8666) wifi_init: accept mbox: 6[0m
+[0;32mI (8666) wifi_init: tcpip mbox: 32[0m
+[0;32mI (8666) wifi_init: udp mbox: 6[0m
+[0;32mI (8666) wifi_init: tcp mbox: 6[0m
+[0;32mI (8676) wifi_init: tcp tx win: 5760[0m
+[0;32mI (8676) wifi_init: tcp rx win: 5760[0m
+[0;32mI (8676) wifi_init: tcp mss: 1440[0m
+[0;32mI (8686) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (8686) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (8686) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10[0m
+[0;32mI (8736) wifi:mode : sta (10:20:ba:35:17:c4)[0m
+[0;32mI (8736) wifi:enable tsf[0m
+[0;32mI (8736) ESPNOW: espnow [version: 2.0] init[0m
+[0;32mI (8736) hashmal.menora.espnow: ═══ ESP-NOW levantado ═══ (Éx 26:3 ishá el ajotá)[0m
+[0;32mI (8746) hashmal.menora.espnow:   WiFi STA sin conectar (Lv 10:1-2 — sin ésh zará)[0m
+[0;32mI (8746) hashmal.menora.espnow:   canal 1, máx hermanas=20, frame=250, frag=10[0m
+[0;32mI (8756) hashmal.menora.espnow:   mutsaqá ESP-NOW DISPONIBLE en los 7 nerot[0m
+[0;32mI (8766) hashmal.menora.hub:   mutsaqá ESP-NOW lista (ishá el ajotá, Éx 26:3)[0m
+[0;32mI (8766) BLE_INIT: BT controller compile version [b7de11e][0m
+[0;32mI (8776) BLE_INIT: Using main XTAL as clock source[0m
+[0;32mI (8776) BLE_INIT: Feature Config, ADV:1, BLE_50:1, DTM:1, SCAN:1, CCA:0, SMP:1, CONNECT:1[0m
+[0;32mI (8786) BLE_INIT: Bluetooth MAC: 10:20:ba:35:17:c6[0m
+[0;32mI (8796) NimBLE: GAP procedure initiated: stop advertising.[0m
+
+[0;32mI (8806) hashmal.menora.ble: NimBLE sincronizado (own_addr_type=0)[0m
+[0;32mI (8806) hashmal.menora.ble: ═══ BLE paʻamón levantado ═══ (Éx 28:33-35)[0m
+[0;32mI (8816) hashmal.menora.ble:   nodo_id propio = 4 (company=0xffff)[0m
+[0;32mI (8816) hashmal.menora.ble:   intervalo adv = 1000 ms, silencio = 30000 ms[0m
+[0;32mI (8826) hashmal.menora.ble:   mutsaqá BLE DISPONIBLE en los 7 nerot (Zac 4:10 — ojo pequeño que recorre la tierra)[0m
+[0;32mI (8836) hashmal.menora.hub:   mutsaqá BLE lista (paʻamón, Éx 28:34)[0m
+[0;32mI (8836) hashmal.menora.hub:   gullá operativa (Zac 4:2) — selector listo para verter berují (Zac 4:6)[0m
+  ══ v.25: hannérot — Menorá COMPLETA (7 canales) ══
+[0;33mW (8856) hashmal.menora.canales: encender: ner 0 sin aceite (aceite_nivel=0) — procediendo (pieza 08 Aceite Perpetuo pendiente, Éx 27:20)[0m
+[0;32mI (8866) hashmal.menora.lora: canal 0 → freq 868100000 Hz (reg=0x36419999)[0m
+[0;32mI (8876) hashmal.menora.lora: configurar_potencia: PA cfg dutyCycle=0x04 hpMax=0x07 SX1262 — Éx 27:20 shémen zayt záj[0m
+[0;32mI (8886) hashmal.menora.lora: canal 0 → potencia 14 dBm (Zac 4:6 — al mínimo útil)[0m
+[0;32mI (8896) hashmal.menora.canales: ner 0 heʻelá: APAGADO → ENCENDIDO (freq=868100000 Hz, pot=14 dBm), escucha_continua=ON (yotseim, Éx 25:32) — Éx 25:37[0m
+  ══ Éx 40:25: ner 0 heʻelá — ENCENDIDO ══
+[0;33mW (8916) hashmal.menora.canales: encender: ner 1 sin aceite (aceite_nivel=0) — procediendo (pieza 08 Aceite Perpetuo pendiente, Éx 27:20)[0m
+[0;32mI (8926) hashmal.menora.lora: canal 1 → freq 868300000 Hz (reg=0x3644cccc)[0m
+[0;32mI (8936) hashmal.menora.lora: configurar_potencia: PA cfg dutyCycle=0x04 hpMax=0x07 SX1262 — Éx 27:20 shémen zayt záj[0m
+[0;32mI (8946) hashmal.menora.lora: canal 1 → potencia 14 dBm (Zac 4:6 — al mínimo útil)[0m
+[0;32mI (8946) hashmal.menora.canales: ner 1 heʻelá: APAGADO → ENCENDIDO (freq=868300000 Hz, pot=14 dBm), escucha_continua=ON (yotseim, Éx 25:32) — Éx 25:37[0m
+  ══ Éx 40:25: ner 1 heʻelá — ENCENDIDO ══
+[0;33mW (8966) hashmal.menora.canales: encender: ner 2 sin aceite (aceite_nivel=0) — procediendo (pieza 08 Aceite Perpetuo pendiente, Éx 27:20)[0m
+[0;32mI (8986) hashmal.menora.lora: canal 2 → freq 868500000 Hz (reg=0x36480000)[0m
+[0;32mI (8986) hashmal.menora.lora: configurar_potencia: PA cfg dutyCycle=0x04 hpMax=0x07 SX1262 — Éx 27:20 shémen zayt záj[0m
+[0;32mI (8996) hashmal.menora.lora: canal 2 → potencia 14 dBm (Zac 4:6 — al mínimo útil)[0m
+[0;32mI (9006) hashmal.menora.canales: ner 2 heʻelá: APAGADO → ENCENDIDO (freq=868500000 Hz, pot=14 dBm), escucha_continua=ON (yotseim, Éx 25:32) — Éx 25:37[0m
+  ══ Éx 40:25: ner 2 heʻelá — ENCENDIDO ══
+[0;33mW (9026) hashmal.menora.canales: encender: ner 3 sin aceite (aceite_nivel=0) — procediendo (pieza 08 Aceite Perpetuo pendiente, Éx 27:20)[0m
+[0;32mI (9036) hashmal.menora.lora: canal 3 → freq 868700000 Hz (reg=0x364b3333)[0m
+[0;32mI (9046) hashmal.menora.lora: configurar_potencia: PA cfg dutyCycle=0x04 hpMax=0x07 SX1262 — Éx 27:20 shémen zayt záj[0m
+[0;32mI (9056) hashmal.menora.lora: canal 3 → potencia 14 dBm (Zac 4:6 — al mínimo útil)[0m
+[0;32mI (9066) hashmal.menora.canales: ner 3 heʻelá: APAGADO → ENCENDIDO (freq=868700000 Hz, pot=14 dBm), escucha_continua=ON (yotseim, Éx 25:32) — Éx 25:37[0m
+  ══ Éx 40:25: ner 3 heʻelá — ENCENDIDO ══
+[0;33mW (9086) hashmal.menora.canales: encender: ner 4 sin aceite (aceite_nivel=0) — procediendo (pieza 08 Aceite Perpetuo pendiente, Éx 27:20)[0m
+[0;32mI (9096) hashmal.menora.lora: canal 4 → freq 868900000 Hz (reg=0x364e6666)[0m
+[0;32mI (9106) hashmal.menora.lora: configurar_potencia: PA cfg dutyCycle=0x04 hpMax=0x07 SX1262 — Éx 27:20 shémen zayt záj[0m
+[0;32mI (9116) hashmal.menora.lora: canal 4 → potencia 14 dBm (Zac 4:6 — al mínimo útil)[0m
+[0;32mI (9116) hashmal.menora.canales: ner 4 heʻelá: APAGADO → ENCENDIDO (freq=868900000 Hz, pot=14 dBm), escucha_continua=ON (yotseim, Éx 25:32) — Éx 25:37[0m
+  ══ Éx 40:25: ner 4 heʻelá — ENCENDIDO ══
+[0;33mW (9136) hashmal.menora.canales: encender: ner 5 sin aceite (aceite_nivel=0) — procediendo (pieza 08 Aceite Perpetuo pendiente, Éx 27:20)[0m
+[0;32mI (9146) hashmal.menora.lora: canal 5 → freq 869100000 Hz (reg=0x36519999)[0m
+[0;32mI (9156) hashmal.menora.lora: configurar_potencia: PA cfg dutyCycle=0x04 hpMax=0x07 SX1262 — Éx 27:20 shémen zayt záj[0m
+[0;32mI (9166) hashmal.menora.lora: canal 5 → potencia 14 dBm (Zac 4:6 — al mínimo útil)[0m
+[0;32mI (9176) hashmal.menora.canales: ner 5 heʻelá: APAGADO → ENCENDIDO (freq=869100000 Hz, pot=14 dBm), escucha_continua=ON (yotseim, Éx 25:32) — Éx 25:37[0m
+  ══ Éx 40:25: ner 5 heʻelá — ENCENDIDO ══
+[0;33mW (9196) hashmal.menora.canales: encender: ner 6 sin aceite (aceite_nivel=0) — procediendo (pieza 08 Aceite Perpetuo pendiente, Éx 27:20)[0m
+[0;32mI (9206) hashmal.menora.lora: canal 6 → freq 869300000 Hz (reg=0x3654cccc)[0m
+[0;32mI (9216) hashmal.menora.lora: configurar_potencia: PA cfg dutyCycle=0x04 hpMax=0x07 SX1262 — Éx 27:20 shémen zayt záj[0m
+[0;32mI (9226) hashmal.menora.lora: canal 6 → potencia 14 dBm (Zac 4:6 — al mínimo útil)[0m
+[0;32mI (9236) hashmal.menora.canales: ner 6 heʻelá: APAGADO → ENCENDIDO (freq=869300000 Hz, pot=14 dBm), escucha_continua=ON (yotseim, Éx 25:32) — Éx 25:37[0m
+  ══ Éx 40:25: ner 6 heʻelá — ENCENDIDO ══
+[0;32mI (9256) hashmal.menora.lora: ═══ Nm 8:2 — SX1262 en RX continuo (tamíd 0xFFFFFF) ═══[0m
+[0;32mI (9256) hashmal.menora.lora:   el mul penei hammenora yaʼiru — los 7 oídos activos[0m
+  ══ Nm 8:2: SX1262 en RX continuo — oído activo (tamíd) ══
+[0;32mI (9276) hashmal.power.mantenimiento: yaʻarój iniciando (Lv 24:3 — meʻérev ʻad bóqer)[0m
+[0;32mI (9286) hashmal.power.supervivencia: olivo YAMÍN (derecho — solar) vertió: 50% (2100 mV) activo[0m
+[0;32mI (9296) hashmal.power.supervivencia: olivo SMOL (izquierdo — batería) vertió: 50% (2100 mV) activo[0m
+[0;32mI (9296) hashmal.power.supervivencia: gullá (Zac 4:2): 50% → nivel DAI (suficiente)[0m
+[0;32mI (9306) hashmal.power.mantenimiento: yaʻarój completo: yamín=50%(+) smol=50%(+) gullá=50% nivel=DAI (suficiente) ciclo=30000 ms — ʻal hamenorá hatehará (Lv 24:4)[0m
+[0;32mI (9326) hashmal.menora.aceite: hammeriqím: ner 0 ← 50/100 (Zac 4:12 — Éx 27:20)[0m
+[0;32mI (9326) hashmal.menora.aceite: hammeriqím: ner 1 ← 50/100 (Zac 4:12 — Éx 27:20)[0m
+[0;32mI (9336) hashmal.menora.aceite: hammeriqím: ner 2 ← 50/100 (Zac 4:12 — Éx 27:20)[0m
+[0;32mI (9346) hashmal.menora.aceite: hammeriqím: ner 3 ← 50/100 (Zac 4:12 — Éx 27:20)[0m
+[0;32mI (9356) hashmal.menora.aceite: hammeriqím: ner 4 ← 50/100 (Zac 4:12 — Éx 27:20)[0m
+[0;32mI (9366) hashmal.menora.aceite: hammeriqím: ner 5 ← 50/100 (Zac 4:12 — Éx 27:20)[0m
+[0;32mI (9366) hashmal.menora.aceite: hammeriqím: ner 6 ← 50/100 (Zac 4:12 — Éx 27:20)[0m
+[0;32mI (9376) hashmal.power.mantenimiento: hammeriqím: 7/7 nerot ← 50% (Zac 4:12 — Éx 27:20)[0m
+  ══ Zac 4:12: hammeriqím — aceite → 7 nerot (7/7) ══
+[0;32mI (9386) hashmal.ejad: Menorá colocada nójaj hashulján, tsélaʻ teimánah (v.35) — lado sur[0m
+  ══ Éx 26:35: Menorá négev — nókhaḥ haShulján ══
+[0;32mI (9406) hashmal.menora.routing: meshuqqad SUSCRITO (Éx 25:33 — shoqéd ʻal devarí, Jer 1:12)[0m
+  ══ Jer 1:12: meshuqqad SUSCRITO — shoqéd ʻal devarí ══
+[0;32mI (9426) hashmal.perimeter.wifi_ap: NVS: cimiento listo (Is 48:13 yasad)[0m
+[0;32mI (9426) hashmal.perimeter.wifi_ap: wifi_ap_init: modo actual = 1[0m
+[0;32mI (9436) hashmal.perimeter.wifi_ap: wifi_ap_init: STA detectado → modo APSTA (Éx 26:3 ishá el ajotá)[0m
+[0;32mI (9446) wifi:flush txq[0m
+[0;32mI (9446) wifi:stop sw txq[0m
+[0;32mI (9446) wifi:lmac stop hw txq[0m
+[0;32mI (9546) wifi:mode : sta (10:20:ba:35:17:c4) + softAP (10:20:ba:35:17:c5)[0m
+[0;32mI (9546) wifi:enable tsf[0m
+[0;32mI (9546) wifi:Total power save buffer number: 16[0m
+[0;32mI (9546) wifi:Init max length of beacon: 752/752[0m
+[0;32mI (9546) wifi:Init max length of beacon: 752/752[0m
+[0;32mI (9556) hashmal.perimeter.wifi_ap: ═══ SHA'AR WIFI LEVANTADO ═══ (Is 60:11 sha'arayikh tamid)[0m
+[0;32mI (9556) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.4.1[0m
+[0;32mI (9566) hashmal.perimeter.wifi_ap: AP arrancado — Is 60:11 sha'arayikh tamid[0m
+[0;32mI (9576) hashmal.perimeter.wifi_ap:   SSID:     "HASHMAL"[0m
+[0;32mI (9586) hashmal.perimeter.wifi_ap:   Modo:     APSTA[0m
+[0;32mI (9586) hashmal.perimeter.wifi_ap:   Canal RF: 6 (2.4GHz)[0m
+[0;32mI (9596) hashmal.perimeter.wifi_ap:   Max STA:  4 (Éx 27:16 ammudeihem arba'ah)[0m
+[0;32mI (9596) hashmal.perimeter.wifi_ap:   IP AP:    192.168.4.1 — aquí el portal responde[0m
+[0;32mI (9606) hashmal.perimeter.wifi_ap:   Auth:     WPA2 — ma'aseh roqem (Éx 38:18)[0m
+  ══ Is 60:11: AP "HASHMAL" levantado (sha'arayich tamim) ══
+[0;32mI (9626) hashmal.perimeter.dns: tarea DNS cautivo arrancando (Jn 10:9 — una sola puerta)[0m
+[0;32mI (9626) hashmal.perimeter.dns: DNS cautivo escuchando en UDP:53 — redirige → 192.168.4.1[0m
+[0;32mI (9636) hashmal.perimeter.dns: DNS cautivo iniciado — tarea spawneada (Jn 10:9 thyra)[0m
+  ══ Jn 10:9: DNS cautivo activo (thyra → 192.168.4.1) ══
+[0;32mI (10126) hashmal.perimeter.http: DEVAR montado: /devar (Éx 25:16 — Testimonio en el Arca)[0m
+[0;32mI (10126) hashmal.perimeter.http: ═══ SHA'AR HTTP LEVANTADO ═══ (Éx 40:33 vayjál hammelaják)[0m
+[0;32mI (10136) hashmal.perimeter.http:   Puerto: 80  |  Rutas: 13 + comodín[0m
+[0;32mI (10136) hashmal.perimeter.http:   Portal:  http://192.168.4.1/[0m
+[0;32mI (10146) hashmal.perimeter.http:   API:     /api/mensajes  /api/estado[0m
+[0;32mI (10146) hashmal.perimeter.http:   DEVAR:   /api/devar/index  /api/devar/cap[0m
+[0;32mI (10156) hashmal.perimeter.http:   HTML: 19687 bytes — obra de bordador (Éx 27:16 roqém)[0m
+  ══ Éx 40:33b: vayjál — portal HTTP listo (roqém) ══
+     http://192.168.4.1/ — obra de bordador
+[0;32mI (10176) hashmal.auth.cuernos: cuerno 0 activado — Lv 4:25 dám ʻal qarnót; cuernos_activos=1[0m
+[0;32mI (10186) hashmal.auth.cuernos: cuerno 1 activado — Lv 4:25 dám ʻal qarnót; cuernos_activos=2[0m
+[0;32mI (10196) hashmal.auth.cuernos: cuerno 2 activado — Lv 4:25 dám ʻal qarnót; cuernos_activos=3[0m
+[0;32mI (10206) hashmal.auth.cuernos: cuerno 3 activado — Lv 4:25 dám ʻal qarnót; cuernos_activos=4[0m
+[0;32mI (10206) hashmal.auth.fuego: ═══ FUEGO ENCENDIDO ═══ (Lv 9:24)[0m
+[0;32mI (10216) hashmal.auth.fuego:   vattetsé ésh millifnéi YHWH vattójal ʻal hammizbéaj[0m
+[0;32mI (10226) hashmal.auth.fuego:   cuernos activados: 4/4 (Lv 4:25 dám ʻal qarnót)[0m
+[0;32mI (10236) hashmal.auth.fuego:   réshet activa (Éx 27:4 maʻasé réshet nejóshet)[0m
+[0;32mI (10236) hashmal.auth.fuego:   tamíd lifnéi YHWH (Lv 6:6 lo tijbé)[0m
+  ══ v.29: haʻoláh — fuego encendido (Lv 9:24) ══
+[0;32mI (10256) hashmal.hc.core: ═══ AGUA PUESTA ═══ (Éx 30:18, Éx 40:30) 'vayyittén shámma máyim lerájtsa'[0m
+  ══ v.30: máyim — Lavacro lleno (Éx 40:30) ══
+[0;32mI (10266) hashmal.onboarding.pipeline: nodo 4: CERO → EN_PROCESO (taqríb el pétaj óhel moʻéd — Éx 29:4 + Lv 8:6) — fase RAJATS activa[0m
+  ══ Lv 8:6: taqríb — nodo 0 EN_PROCESO ══
+[0;32mI (10286) hashmal.onboarding.fases: nodo 4: RAJATS (H7364 — lavar, Éx 29:4 + Lv 8:6) completada — verajátstá bammáyim (Éx 29:4 + Lv 8:6) → HILBISH (H3847 — vestir, Éx 29:5 + Lv 8:7)[0m
+[0;32mI (10306) hashmal.onboarding.fases: nodo 4: HILBISH (H3847 — vestir, Éx 29:5 + Lv 8:7) completada — vehibláshta (Éx 29:5 + Lv 8:7) → MASHAJ (H4886 — ungir, Éx 29:7 + Lv 8:12)[0m
+[0;32mI (10316) hashmal.onboarding.fases: nodo 4: MASHAJ (H4886 — ungir, Éx 29:7 + Lv 8:12) completada — veyatsáqta ʻal roshó (Éx 29:7 + Lv 8:12) → JATTAT (H2403 — purificar, Éx 29:10-14 + Lv 8:14-17)[0m
+[0;32mI (10336) hashmal.onboarding.fases: nodo 4: JATTAT (H2403 — purificar, Éx 29:10-14 + Lv 8:14-17) completada — par jattáʼt, mijúts lammajanéh (Éx 29:10-14 + Lv 8:14-17) → OLA (H5930 — ascender, Éx 29:15-18 + Lv 8:18-21)[0m
+[0;32mI (10356) hashmal.onboarding.fases: nodo 4: OLA (H5930 — ascender, Éx 29:15-18 + Lv 8:18-21) completada — éil ʻolá, réaj nijóaj (Éx 29:18 + Lv 8:21) → MILLUIM (H4394 — llenar, Éx 29:19-28 + Lv 8:22-29)[0m
+[0;32mI (10376) hashmal.onboarding.fases: nodo 4: MILLUIM (H4394 — llenar, Éx 29:19-28 + Lv 8:22-29) completada — éil hamilluím (Éx 29:22 + Lv 8:28) → SHIVAT (H7651 — siete días, Éx 29:35 + Lv 8:33)[0m
+[0;32mI (10396) hashmal.onboarding.fases: nodo 4: ciclo 1/7 registrado (Éx 29:36 upar jattáʼt layyóm)[0m
+[0;32mI (10406) hashmal.onboarding.fases: nodo 4: ciclo 2/7 registrado (Éx 29:36 upar jattáʼt layyóm)[0m
+[0;32mI (10416) hashmal.onboarding.fases: nodo 4: ciclo 3/7 registrado (Éx 29:36 upar jattáʼt layyóm)[0m
+[0;32mI (10416) hashmal.onboarding.fases: nodo 4: ciclo 4/7 registrado (Éx 29:36 upar jattáʼt layyóm)[0m
+[0;32mI (10426) hashmal.onboarding.fases: nodo 4: ciclo 5/7 registrado (Éx 29:36 upar jattáʼt layyóm)[0m
+[0;32mI (10436) hashmal.onboarding.fases: nodo 4: ciclo 6/7 registrado (Éx 29:36 upar jattáʼt layyóm)[0m
+[0;32mI (10446) hashmal.onboarding.fases: nodo 4: shivʻát yamím COMPLETOS — 7/7 (Éx 29:35 + Lv 8:33) — listo para sheminí (Lv 9:1)[0m
+[0;32mI (10456) hashmal.onboarding.sellos: nodo 4: sello ÓZEN (H241 — oreja DERECHA, RECIBIR, Éx 29:20 + Lv 14:14) aplicado (Éx 29:20 + Lv 8:23-24)[0m
+  ══ Éx 29:20: ozen (H8571 tenúj, oreja der.) sellado ══
+[0;32mI (10476) hashmal.onboarding.sellos: nodo 4: sello BÓHEN YAD (H931+H3027 — pulgar mano DERECHA, PROCESAR, Éx 29:20 + Lv 14:14) aplicado (Éx 29:20 + Lv 8:23-24)[0m
+  ══ Éx 29:20: bohen yad (H931+H3027, pulgar der.) sellado ══
+[0;32mI (10496) hashmal.onboarding.sellos: nodo 4: sello BÓHEN RÉGEL (H931+H7272 — dedo gordo pie DERECHO, TRANSMITIR, Éx 29:20 + Lv 14:14) aplicado (Éx 29:20 + Lv 8:23-24)[0m
+[0;32mI (10516) hashmal.onboarding.sellos: nodo 4: TRIPLE SELLADO completo — ózen + bóhen yad + bóhen régel (recibir + procesar + transmitir, Éx 29:20 + Lv 14:14 patrón universal)[0m
+  ══ Éx 29:20: bohen regel (H931+H7272, dedo der.) sellado ══
+[0;32mI (10536) hashmal.onboarding.sellos: nodo 4: config FIRMADA — sangre+shémen hamishjá sobre begadím (Éx 29:21 + Lv 8:30)[0m
+[0;32mI (10546) hashmal.onboarding.sellos:   veqadásh hu uvegadáv — santificado ÉL y sus VESTIDURAS (Éx 29:21)[0m
+  ══ Éx 29:21: config firmada — veqaddásh hu uvegadáv ══
+[0;32mI (10566) hashmal.onboarding.lockdown: nodo 4: LOCKDOWN activado — recursos DEDICADOS[0m
+[0;32mI (10566) hashmal.onboarding.lockdown:   ʻolá: TODO asciende, cero residuo profano (Éx 29:18 kol haʼáyil taqtír)[0m
+[0;32mI (10576) hashmal.onboarding.lockdown:   vezár lo yokhál kí qódesh hém (Éx 29:33 + Lv 22:10)[0m
+[0;32mI (10586) hashmal.onboarding.lockdown:   notár yisaréf (Éx 29:34) — lo sobrante se quema, nada queda para uso profano[0m
+  ══ Éx 29:33: lockdown activado — vezár lo yokhál kí qódesh hém ══
+[0;32mI (10606) hashmal.onboarding.pipeline: ══════ DÍA 8 — nodo 4 LANZADO ══════[0m
+[0;32mI (10616) hashmal.onboarding.pipeline:   vayhí bayyóm hasheminí (Lv 9:1)[0m
+[0;32mI (10626) hashmal.onboarding.pipeline:   hakkohaním hammeshujím ashér milléʼ yadám (Nm 3:3)[0m
+[0;32mI (10626) hashmal.onboarding.pipeline:   EN_PROCESO → ACTIVO; activos=1/12[0m
+  ══ Lv 9:1: sheminí — nodo 0 ACTIVO ══
+
+  ══════════════════════════════════════════
+  INSPECCIÓN — Éxodo 39:43
+  "vayyar Moshéh et KOL hammelajáh"
+  ══════════════════════════════════════════
+  [✓] 05 Estructura (Éx 26)
+  [✓] 01 Arca (Éx 25:10-16)
+  [✓] 02 Kapóret (Éx 25:17-22)
+  [✓] 03 Mesa (Éx 25:23-30)
+  [✓] 04 Menorá (Éx 25:31-40)
+  [✓] 11 Altar Incienso (Éx 30:1-10)
+  [✓] 06 Altar Sacrificio (Éx 27:1-8)
+  [✓] 12 Lavacro (Éx 30:17-21)
+  [✓] 07 Atrio (Éx 27:9-19)
+  [✓] 08 Aceite Perpetuo (Éx 27:20-21)
+  [✓] 13 Unción (Éx 30:22-33)
+  [✓] 09 Vestiduras (Éx 28)
+  [✓] 10 Consagración (Éx 29)
+  [✓] 14 Incienso Sagrado (Éx 30:34-38)
+  ──────────────────────────────────────────
+  Resultado: 14 / 14 piezas operativas
+[0;32mI (10726) hashmal.capas: 4 capas conformes al patrón del monte (Ex 26:30)[0m
+[0;32mI (10736) hashmal.tablas: 48 qerashím verificados: 20 sur + 20 norte + 6+2 oeste; este abierto[0m
+[0;32mI (10746) hashmal.tablas: v.17 recíproco (ishá el ajotá); v.24 esquinas toʼamím (×2)[0m
+[0;32mI (10756) hashmal.tablas: 96 adné késef — fundados sobre kófer nafshó (Éx 30:12)[0m
+[0;32mI (10756) hashmal.barras: 15 berijím verificadas (v.26-28): 5 por lado × 3 lados[0m
+[0;32mI (10766) hashmal.barras: 3 hatijones — cada uno betój haqerashím, extremo a extremo (v.28)[0m
+[0;32mI (10776) hashmal.velo: gradiente verificado: masaj(bronce/roqém/sin keruvím) → velo(plata/joshév/keruvím)[0m
+[0;32mI (10786) hashmal.ejad: ═══ vehayá haMishkán EJÁD ═══ (Éx 26:6, 26:30)[0m
+[0;32mI (10796) hashmal.ejad:   estructura verificada · membranas activas · objetos colocados[0m
+[0;32mI (10806) hashmal.ejad:   96 adné késef (kófer nafshó, Éx 30:12) — cimiento de rescate[0m
+
+  ═══════════════════════════════════════════
+  vayvárej otám Moshé — Éx 39:43
+  BENDICIÓN: toda la obra conforme al Tavnít.
+  ═══════════════════════════════════════════
+
+  vayjál Moshéh et hammelajáh (Éx 40:33)
+  Mishkán inicializado según Éxodo 40.
+
+  "La nube cubrió la Tienda de Reunión,
+   y la Gloria de YHWH llenó el Mishkán."
+   — Éxodo 40:34
+
+  veló yakól Moshéh lavó (Éx 40:35) — main suelta autoridad.
+  Estado: LISTEN — vayyiqrá esperado (Lv 1:1).
+
+[0;32mI (10876) hashmal.epd: Enviando framebuffer al display...[0m
+[0;32mI (10886) hashmal.epd: Power ON -- esperando charge pump...[0m
+[0;32mI (10886) hashmal.epd: Refresh enviado -- esperando e-paper (2-4s)...[0m
+[0;32mI (13976) hashmal.epd: Refresco completo -- masakh actualizado[0m
+[0;32mI (13976) hashmal.menu: ═══ KAVOD — Éx 40:34 ═══[0m
+[0;33mW (13976) hashmal.epd: EPD ya inicializado[0m
+[0;32mI (13976) hashmal.menu:   [✓] EPD[0m
+[0;32mI (13976) hashmal.menu:   [✓] BAT ADC GPIO4 (Éx 27:20 shemen)[0m
+[0;32mI (13986) hashmal.menu:   [✓] I2C + TCA8418[0m
+[0;32mI (13986) gpio: GPIO[45]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (13996) gpio: GPIO[12]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:2 [0m
+[0;32mI (14126) hashmal.menu:   [✓] CST328 (Éx 26:36)[0m
+[0;32mI (14126) hashmal.menu:   [✓] CST328 ISR NEGEDGE GPIO12[0m
+[0;32mI (14126) hashmal.menu:   [✓] Task kavod[0m
+[0;32mI (14126) hashmal.menu: ═══ KAVOD levantado ═══[0m
+[0;32mI (14126) hashmal.menora.lora: spi_recibir[1]: tabóhar — FIFO purgado antes del primer ciclo de escucha (Lv 16:19 vetihéru)[0m
+[0;32mI (14136) hashmal.menora.routing: vecinos_contar: 7 vecinos alcanzables (fase 1 single-hop; fase 2 usará los 22 geviʻím — 1 Re 7:49)[0m
+[0;32mI (14156) hashmal.aceite.anan_esh: anan/esh: DIA (anan) + POSA (yajanu) -> color=1 patron=1 (vecinos=7 shaon=16 miqlat_local=0 refugiados=0)[0m
+[0;32mI (14166) hashmal.menora.formato: empaquetar: tipo=0x02 orig=4 dst=0xFF tam=4 (total=9, v.38 majtot)[0m
+[0;33mW (14176) hashmal.menora.mutsaqot: seleccionar: canal=0 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (14186) main_task: Returned from app_main()[0m
+[0;32mI (15086) hashmal.menora.lora: spi_recibir[20]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (16086) hashmal.menora.lora: spi_recibir[40]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (16126) hashmal.epd: Enviando framebuffer al display...[0m
+[0;32mI (16146) hashmal.epd: Power ON -- esperando charge pump...[0m
+[0;32mI (16146) hashmal.epd: Refresh enviado -- esperando e-paper (2-4s)...[0m
+[0;33mW (16186) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20197 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (16186) hashmal.menora.routing: enviar canal 0: 9 B vía mutsaqá 0 (tx=1, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (16196) hashmal.menora.mutsaqot: seleccionar: canal=1 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (17086) hashmal.menora.lora: spi_recibir[60]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (18086) hashmal.menora.lora: spi_recibir[80]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (18216) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20564 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (18216) hashmal.menora.routing: enviar canal 1: 9 B vía mutsaqá 0 (tx=1, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (18226) hashmal.menora.mutsaqot: seleccionar: canal=2 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (19086) hashmal.menora.lora: spi_recibir[100]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (19226) hashmal.epd: Refresco completo -- masakh actualizado[0m
+[0;32mI (19226) hashmal.menu: Estado dibujado (Éx 40:34)[0m
+[0;32mI (20086) hashmal.menora.lora: spi_recibir[120]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (20236) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20782 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (20246) hashmal.menora.routing: enviar canal 2: 9 B vía mutsaqá 0 (tx=1, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (20256) hashmal.menora.mutsaqot: seleccionar: canal=3 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (21086) hashmal.menora.lora: spi_recibir[140]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (22086) hashmal.menora.lora: spi_recibir[160]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (22266) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20790 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (22276) hashmal.menora.routing: enviar canal 3: 9 B vía mutsaqá 0 (tx=1, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (22286) hashmal.menora.mutsaqot: seleccionar: canal=4 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (23086) hashmal.menora.lora: spi_recibir[180]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (24086) hashmal.menora.lora: spi_recibir[200]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (24296) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20683 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (24296) hashmal.menora.routing: enviar canal 4: 9 B vía mutsaqá 0 (tx=1, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (24306) hashmal.menora.mutsaqot: seleccionar: canal=5 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (25086) hashmal.menora.lora: spi_recibir[220]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (26086) hashmal.menora.lora: spi_recibir[240]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (26326) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20504 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (26326) hashmal.menora.routing: enviar canal 5: 9 B vía mutsaqá 0 (tx=1, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (26336) hashmal.menora.mutsaqot: seleccionar: canal=6 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (27086) hashmal.menora.lora: spi_recibir[260]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (28086) hashmal.menora.lora: spi_recibir[280]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (28346) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20474 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (28356) hashmal.menora.routing: enviar canal 6: 9 B vía mutsaqá 0 (tx=1, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;32mI (28366) hashmal.menora.routing: broadcast: 7/7 éxitos (fallos=0) — Éx 25:37 vehéir[0m
+  [BROADCAST] Éx 40:38: ʻanán (ʻal) yomam — externo: vecinos=7 mov=POSA (yajanu)
+[0;32mI (29086) hashmal.menora.lora: spi_recibir[300]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (30086) hashmal.menora.lora: spi_recibir[320]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (31086) hashmal.menora.lora: spi_recibir[340]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (32086) hashmal.menora.lora: spi_recibir[360]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (33086) hashmal.menora.lora: spi_recibir[380]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (33376) hashmal.menora.routing: vecinos_contar: 7 vecinos alcanzables (fase 1 single-hop; fase 2 usará los 22 geviʻím — 1 Re 7:49)[0m
+[0;32mI (33376) hashmal.aceite.anan_esh: anan/esh: DIA (anan) + POSA (yajanu) -> color=1 patron=1 (vecinos=7 shaon=16 miqlat_local=0 refugiados=0)[0m
+[0;32mI (33386) hashmal.menora.formato: empaquetar: tipo=0x02 orig=4 dst=0xFF tam=4 (total=9, v.38 majtot)[0m
+[0;33mW (33396) hashmal.menora.mutsaqot: seleccionar: canal=0 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (34086) hashmal.menora.lora: spi_recibir[400]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (35086) hashmal.menora.lora: spi_recibir[420]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (35406) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20466 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (35416) hashmal.menora.routing: enviar canal 0: 9 B vía mutsaqá 0 (tx=2, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (35426) hashmal.menora.mutsaqot: seleccionar: canal=1 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (36086) hashmal.menora.lora: spi_recibir[440]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (37086) hashmal.menora.lora: spi_recibir[460]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (37436) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20473 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (37436) hashmal.menora.routing: enviar canal 1: 9 B vía mutsaqá 0 (tx=2, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (37446) hashmal.menora.mutsaqot: seleccionar: canal=2 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (38086) hashmal.menora.lora: spi_recibir[480]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (39086) hashmal.menora.lora: spi_recibir[500]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (39456) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20474 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (39466) hashmal.menora.routing: enviar canal 2: 9 B vía mutsaqá 0 (tx=2, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (39476) hashmal.menora.mutsaqot: seleccionar: canal=3 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (40086) hashmal.menora.lora: spi_recibir[520]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (41086) hashmal.menora.lora: spi_recibir[540]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (41486) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20477 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (41496) hashmal.menora.routing: enviar canal 3: 9 B vía mutsaqá 0 (tx=2, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (41506) hashmal.menora.mutsaqot: seleccionar: canal=4 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (42086) hashmal.menora.lora: spi_recibir[560]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (43086) hashmal.menora.lora: spi_recibir[580]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (43516) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20466 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (43516) hashmal.menora.routing: enviar canal 4: 9 B vía mutsaqá 0 (tx=2, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (43526) hashmal.menora.mutsaqot: seleccionar: canal=5 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (44086) hashmal.menora.lora: spi_recibir[600]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (45086) hashmal.menora.lora: spi_recibir[620]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (45546) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20474 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (45546) hashmal.menora.routing: enviar canal 5: 9 B vía mutsaqá 0 (tx=2, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (45556) hashmal.menora.mutsaqot: seleccionar: canal=6 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (46086) hashmal.menora.lora: spi_recibir[640]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (47086) hashmal.menora.lora: spi_recibir[660]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (47566) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20470 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (47576) hashmal.menora.routing: enviar canal 6: 9 B vía mutsaqá 0 (tx=2, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;32mI (47586) hashmal.menora.routing: broadcast: 7/7 éxitos (fallos=0) — Éx 25:37 vehéir[0m
+  [BROADCAST] Éx 40:38: ʻanán (ʻal) yomam — externo: vecinos=7 mov=POSA (yajanu)
+[0;32mI (48086) hashmal.menora.lora: spi_recibir[680]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (49086) hashmal.menora.lora: spi_recibir[700]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (50086) hashmal.menora.lora: spi_recibir[720]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (51086) hashmal.menora.lora: spi_recibir[740]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (52086) hashmal.menora.lora: spi_recibir[760]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (52596) hashmal.menora.routing: vecinos_contar: 7 vecinos alcanzables (fase 1 single-hop; fase 2 usará los 22 geviʻím — 1 Re 7:49)[0m
+[0;32mI (52596) hashmal.aceite.anan_esh: anan/esh: DIA (anan) + POSA (yajanu) -> color=1 patron=1 (vecinos=7 shaon=16 miqlat_local=0 refugiados=0)[0m
+[0;32mI (52606) hashmal.menora.formato: empaquetar: tipo=0x02 orig=4 dst=0xFF tam=4 (total=9, v.38 majtot)[0m
+[0;33mW (52616) hashmal.menora.mutsaqot: seleccionar: canal=0 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (53086) hashmal.menora.lora: spi_recibir[780]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (54086) hashmal.menora.lora: spi_recibir[800]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (54626) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20471 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (54636) hashmal.menora.routing: enviar canal 0: 9 B vía mutsaqá 0 (tx=3, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (54646) hashmal.menora.mutsaqot: seleccionar: canal=1 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (55086) hashmal.menora.lora: spi_recibir[820]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (56086) hashmal.menora.lora: spi_recibir[840]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (56656) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20472 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (56656) hashmal.menora.routing: enviar canal 1: 9 B vía mutsaqá 0 (tx=3, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (56666) hashmal.menora.mutsaqot: seleccionar: canal=2 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (57086) hashmal.menora.lora: spi_recibir[860]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (58086) hashmal.menora.lora: spi_recibir[880]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (58676) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20481 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (58686) hashmal.menora.routing: enviar canal 2: 9 B vía mutsaqá 0 (tx=3, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (58696) hashmal.menora.mutsaqot: seleccionar: canal=3 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (59086) hashmal.menora.lora: spi_recibir[900]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (60086) hashmal.menora.lora: spi_recibir[920]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (60706) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20464 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (60716) hashmal.menora.routing: enviar canal 3: 9 B vía mutsaqá 0 (tx=3, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (60726) hashmal.menora.mutsaqot: seleccionar: canal=4 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (61086) hashmal.menora.lora: spi_recibir[940]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (62086) hashmal.menora.lora: spi_recibir[960]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (62736) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20457 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (62746) hashmal.menora.routing: enviar canal 4: 9 B vía mutsaqá 0 (tx=3, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (62756) hashmal.menora.mutsaqot: seleccionar: canal=5 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (63086) hashmal.menora.lora: spi_recibir[980]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (64086) hashmal.menora.lora: spi_recibir[1000]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (64766) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20447 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (64766) hashmal.menora.routing: enviar canal 5: 9 B vía mutsaqá 0 (tx=3, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (64776) hashmal.menora.mutsaqot: seleccionar: canal=6 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (65086) hashmal.menora.lora: spi_recibir[1020]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (66086) hashmal.menora.lora: spi_recibir[1040]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (66796) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20476 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (66796) hashmal.menora.routing: enviar canal 6: 9 B vía mutsaqá 0 (tx=3, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;32mI (66806) hashmal.menora.routing: broadcast: 7/7 éxitos (fallos=0) — Éx 25:37 vehéir[0m
+  [BROADCAST] Éx 40:38: ʻanán (ʻal) yomam — externo: vecinos=7 mov=POSA (yajanu)
+[0;32mI (67086) hashmal.menora.lora: spi_recibir[1060]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (68086) hashmal.menora.lora: spi_recibir[1080]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (69086) hashmal.menora.lora: spi_recibir[1100]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (70086) hashmal.menora.lora: spi_recibir[1120]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (71086) hashmal.menora.lora: spi_recibir[1140]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (71826) hashmal.menora.routing: vecinos_contar: 7 vecinos alcanzables (fase 1 single-hop; fase 2 usará los 22 geviʻím — 1 Re 7:49)[0m
+[0;32mI (71826) hashmal.aceite.anan_esh: anan/esh: DIA (anan) + POSA (yajanu) -> color=1 patron=1 (vecinos=7 shaon=16 miqlat_local=0 refugiados=0)[0m
+[0;32mI (71836) hashmal.menora.formato: empaquetar: tipo=0x02 orig=4 dst=0xFF tam=4 (total=9, v.38 majtot)[0m
+[0;33mW (71846) hashmal.menora.mutsaqot: seleccionar: canal=0 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (72086) hashmal.menora.lora: spi_recibir[1160]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (73086) hashmal.menora.lora: spi_recibir[1180]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (73856) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20475 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (73866) hashmal.menora.routing: enviar canal 0: 9 B vía mutsaqá 0 (tx=4, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (73876) hashmal.menora.mutsaqot: seleccionar: canal=1 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (74086) hashmal.menora.lora: spi_recibir[1200]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (75086) hashmal.menora.lora: spi_recibir[1220]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (75886) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20474 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (75886) hashmal.menora.routing: enviar canal 1: 9 B vía mutsaqá 0 (tx=4, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (75896) hashmal.menora.mutsaqot: seleccionar: canal=2 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (76086) hashmal.menora.lora: spi_recibir[1240]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (77086) hashmal.menora.lora: spi_recibir[1260]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (77906) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20477 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (77916) hashmal.menora.routing: enviar canal 2: 9 B vía mutsaqá 0 (tx=4, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (77926) hashmal.menora.mutsaqot: seleccionar: canal=3 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (78086) hashmal.menora.lora: spi_recibir[1280]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (79086) hashmal.menora.lora: spi_recibir[1300]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (79226) hashmal.epd: Enviando framebuffer al display...[0m
+[0;32mI (79246) hashmal.epd: Power ON -- esperando charge pump...[0m
+[0;32mI (79246) hashmal.epd: Refresh enviado -- esperando e-paper (2-4s)...[0m
+[0;33mW (79936) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20300 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (79946) hashmal.menora.routing: enviar canal 3: 9 B vía mutsaqá 0 (tx=4, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (79956) hashmal.menora.mutsaqot: seleccionar: canal=4 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (80086) hashmal.menora.lora: spi_recibir[1320]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (81086) hashmal.menora.lora: spi_recibir[1340]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (81966) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20440 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (81976) hashmal.menora.routing: enviar canal 4: 9 B vía mutsaqá 0 (tx=4, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (81986) hashmal.menora.mutsaqot: seleccionar: canal=5 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (82086) hashmal.menora.lora: spi_recibir[1360]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (82326) hashmal.epd: Refresco completo -- masakh actualizado[0m
+[0;32mI (82326) hashmal.menu: Estado dibujado (Éx 40:34)[0m
+[0;32mI (83086) hashmal.menora.lora: spi_recibir[1380]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (83996) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20459 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (83996) hashmal.menora.routing: enviar canal 5: 9 B vía mutsaqá 0 (tx=4, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (84006) hashmal.menora.mutsaqot: seleccionar: canal=6 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (84086) hashmal.menora.lora: spi_recibir[1400]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (85086) hashmal.menora.lora: spi_recibir[1420]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (86016) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20466 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (86026) hashmal.menora.routing: enviar canal 6: 9 B vía mutsaqá 0 (tx=4, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;32mI (86036) hashmal.menora.routing: broadcast: 7/7 éxitos (fallos=0) — Éx 25:37 vehéir[0m
+  [BROADCAST] Éx 40:38: ʻanán (ʻal) yomam — externo: vecinos=7 mov=POSA (yajanu)
+[0;32mI (86086) hashmal.menora.lora: spi_recibir[1440]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (87086) hashmal.menora.lora: spi_recibir[1460]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (88086) hashmal.menora.lora: spi_recibir[1480]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (89086) hashmal.menora.lora: spi_recibir[1500]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (90086) hashmal.menora.lora: spi_recibir[1520]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (91056) hashmal.menora.routing: vecinos_contar: 7 vecinos alcanzables (fase 1 single-hop; fase 2 usará los 22 geviʻím — 1 Re 7:49)[0m
+[0;32mI (91056) hashmal.aceite.anan_esh: anan/esh: DIA (anan) + POSA (yajanu) -> color=1 patron=1 (vecinos=7 shaon=16 miqlat_local=0 refugiados=0)[0m
+[0;32mI (91066) hashmal.menora.formato: empaquetar: tipo=0x02 orig=4 dst=0xFF tam=4 (total=9, v.38 majtot)[0m
+[0;33mW (91076) hashmal.menora.mutsaqot: seleccionar: canal=0 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (91086) hashmal.menora.lora: spi_recibir[1540]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (92096) hashmal.menora.lora: spi_recibir[1560]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (93096) hashmal.menora.lora: spi_recibir[1580]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (93096) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20445 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (93106) hashmal.menora.routing: enviar canal 0: 9 B vía mutsaqá 0 (tx=5, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (93116) hashmal.menora.mutsaqot: seleccionar: canal=1 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (94096) hashmal.menora.lora: spi_recibir[1600]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (95096) hashmal.menora.lora: spi_recibir[1620]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (95136) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20482 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (95136) hashmal.menora.routing: enviar canal 1: 9 B vía mutsaqá 0 (tx=5, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (95146) hashmal.menora.mutsaqot: seleccionar: canal=2 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (96096) hashmal.menora.lora: spi_recibir[1640]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (97096) hashmal.menora.lora: spi_recibir[1660]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (97156) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20481 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (97166) hashmal.menora.routing: enviar canal 2: 9 B vía mutsaqá 0 (tx=5, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (97176) hashmal.menora.mutsaqot: seleccionar: canal=3 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (98096) hashmal.menora.lora: spi_recibir[1680]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (99096) hashmal.menora.lora: spi_recibir[1700]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (99186) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20468 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (99196) hashmal.menora.routing: enviar canal 3: 9 B vía mutsaqá 0 (tx=5, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (99206) hashmal.menora.mutsaqot: seleccionar: canal=4 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (100096) hashmal.menora.lora: spi_recibir[1720]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (101096) hashmal.menora.lora: spi_recibir[1740]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (101216) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20473 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (101216) hashmal.menora.routing: enviar canal 4: 9 B vía mutsaqá 0 (tx=5, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (101226) hashmal.menora.mutsaqot: seleccionar: canal=5 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (102096) hashmal.menora.lora: spi_recibir[1760]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (103096) hashmal.menora.lora: spi_recibir[1780]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (103236) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20482 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (103246) hashmal.menora.routing: enviar canal 5: 9 B vía mutsaqá 0 (tx=5, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (103256) hashmal.menora.mutsaqot: seleccionar: canal=6 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (104096) hashmal.menora.lora: spi_recibir[1800]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (105096) hashmal.menora.lora: spi_recibir[1820]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (105266) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20470 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (105276) hashmal.menora.routing: enviar canal 6: 9 B vía mutsaqá 0 (tx=5, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;32mI (105286) hashmal.menora.routing: broadcast: 7/7 éxitos (fallos=0) — Éx 25:37 vehéir[0m
+  [BROADCAST] Éx 40:38: ʻanán (ʻal) yomam — externo: vecinos=7 mov=POSA (yajanu)
+[0;32mI (106096) hashmal.menora.lora: spi_recibir[1840]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (107096) hashmal.menora.lora: spi_recibir[1860]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (108096) hashmal.menora.lora: spi_recibir[1880]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (109096) hashmal.menora.lora: spi_recibir[1900]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (110096) hashmal.menora.lora: spi_recibir[1920]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (110296) hashmal.menora.routing: vecinos_contar: 7 vecinos alcanzables (fase 1 single-hop; fase 2 usará los 22 geviʻím — 1 Re 7:49)[0m
+[0;32mI (110296) hashmal.aceite.anan_esh: anan/esh: DIA (anan) + POSA (yajanu) -> color=1 patron=1 (vecinos=7 shaon=16 miqlat_local=0 refugiados=0)[0m
+[0;32mI (110306) hashmal.menora.formato: empaquetar: tipo=0x02 orig=4 dst=0xFF tam=4 (total=9, v.38 majtot)[0m
+[0;33mW (110316) hashmal.menora.mutsaqot: seleccionar: canal=0 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (111096) hashmal.menora.lora: spi_recibir[1940]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (112096) hashmal.menora.lora: spi_recibir[1960]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (112326) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20465 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (112336) hashmal.menora.routing: enviar canal 0: 9 B vía mutsaqá 0 (tx=6, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (112346) hashmal.menora.mutsaqot: seleccionar: canal=1 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (113096) hashmal.menora.lora: spi_recibir[1980]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (114096) hashmal.menora.lora: spi_recibir[2000]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (114356) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20489 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (114356) hashmal.menora.routing: enviar canal 1: 9 B vía mutsaqá 0 (tx=6, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (114366) hashmal.menora.mutsaqot: seleccionar: canal=2 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (115096) hashmal.menora.lora: spi_recibir[2020]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (116096) hashmal.menora.lora: spi_recibir[2040]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (116386) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20459 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (116386) hashmal.menora.routing: enviar canal 2: 9 B vía mutsaqá 0 (tx=6, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (116396) hashmal.menora.mutsaqot: seleccionar: canal=3 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (117096) hashmal.menora.lora: spi_recibir[2060]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (118096) hashmal.menora.lora: spi_recibir[2080]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (118406) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20463 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (118416) hashmal.menora.routing: enviar canal 3: 9 B vía mutsaqá 0 (tx=6, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (118426) hashmal.menora.mutsaqot: seleccionar: canal=4 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (119096) hashmal.menora.lora: spi_recibir[2100]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (120096) hashmal.menora.lora: spi_recibir[2120]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (120436) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20497 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (120446) hashmal.menora.routing: enviar canal 4: 9 B vía mutsaqá 0 (tx=6, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (120456) hashmal.menora.mutsaqot: seleccionar: canal=5 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (121096) hashmal.menora.lora: spi_recibir[2140]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (122096) hashmal.menora.lora: spi_recibir[2160]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (122466) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20456 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (122466) hashmal.menora.routing: enviar canal 5: 9 B vía mutsaqá 0 (tx=6, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (122476) hashmal.menora.mutsaqot: seleccionar: canal=6 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (123096) hashmal.menora.lora: spi_recibir[2180]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (124096) hashmal.menora.lora: spi_recibir[2200]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (124496) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20465 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (124496) hashmal.menora.routing: enviar canal 6: 9 B vía mutsaqá 0 (tx=6, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;32mI (124506) hashmal.menora.routing: broadcast: 7/7 éxitos (fallos=0) — Éx 25:37 vehéir[0m
+  [BROADCAST] Éx 40:38: ʻanán (ʻal) yomam — externo: vecinos=7 mov=POSA (yajanu)
+[0;32mI (125096) hashmal.menora.lora: spi_recibir[2220]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (126096) hashmal.menora.lora: spi_recibir[2240]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (127096) hashmal.menora.lora: spi_recibir[2260]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (128096) hashmal.menora.lora: spi_recibir[2280]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (129096) hashmal.menora.lora: spi_recibir[2300]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (129526) hashmal.menora.routing: vecinos_contar: 7 vecinos alcanzables (fase 1 single-hop; fase 2 usará los 22 geviʻím — 1 Re 7:49)[0m
+[0;32mI (129526) hashmal.aceite.anan_esh: anan/esh: DIA (anan) + POSA (yajanu) -> color=1 patron=1 (vecinos=7 shaon=16 miqlat_local=0 refugiados=0)[0m
+[0;32mI (129536) hashmal.menora.formato: empaquetar: tipo=0x02 orig=4 dst=0xFF tam=4 (total=9, v.38 majtot)[0m
+[0;33mW (129546) hashmal.menora.mutsaqot: seleccionar: canal=0 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (130096) hashmal.menora.lora: spi_recibir[2320]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (131096) hashmal.menora.lora: spi_recibir[2340]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (131556) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20460 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (131566) hashmal.menora.routing: enviar canal 0: 9 B vía mutsaqá 0 (tx=7, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (131576) hashmal.menora.mutsaqot: seleccionar: canal=1 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (132096) hashmal.menora.lora: spi_recibir[2360]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (133096) hashmal.menora.lora: spi_recibir[2380]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (133586) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20482 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (133586) hashmal.menora.routing: enviar canal 1: 9 B vía mutsaqá 0 (tx=7, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (133596) hashmal.menora.mutsaqot: seleccionar: canal=2 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (134096) hashmal.menora.lora: spi_recibir[2400]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (135096) hashmal.menora.lora: spi_recibir[2420]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (135616) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20461 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (135616) hashmal.menora.routing: enviar canal 2: 9 B vía mutsaqá 0 (tx=7, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (135626) hashmal.menora.mutsaqot: seleccionar: canal=3 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (136096) hashmal.menora.lora: spi_recibir[2440]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (137096) hashmal.menora.lora: spi_recibir[2460]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (137636) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20504 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (137646) hashmal.menora.routing: enviar canal 3: 9 B vía mutsaqá 0 (tx=7, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (137656) hashmal.menora.mutsaqot: seleccionar: canal=4 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (138096) hashmal.menora.lora: spi_recibir[2480]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (139096) hashmal.menora.lora: spi_recibir[2500]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (139666) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20482 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (139676) hashmal.menora.routing: enviar canal 4: 9 B vía mutsaqá 0 (tx=7, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (139686) hashmal.menora.mutsaqot: seleccionar: canal=5 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (140096) hashmal.menora.lora: spi_recibir[2520]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (141096) hashmal.menora.lora: spi_recibir[2540]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (141696) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20460 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (141696) hashmal.menora.routing: enviar canal 5: 9 B vía mutsaqá 0 (tx=7, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (141706) hashmal.menora.mutsaqot: seleccionar: canal=6 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (142096) hashmal.menora.lora: spi_recibir[2560]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (142326) hashmal.epd: Enviando framebuffer al display...[0m
+[0;32mI (142346) hashmal.epd: Power ON -- esperando charge pump...[0m
+[0;32mI (142346) hashmal.epd: Refresh enviado -- esperando e-paper (2-4s)...[0m
+[0;32mI (143096) hashmal.menora.lora: spi_recibir[2580]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (143726) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20330 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (143726) hashmal.menora.routing: enviar canal 6: 9 B vía mutsaqá 0 (tx=7, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;32mI (143736) hashmal.menora.routing: broadcast: 7/7 éxitos (fallos=0) — Éx 25:37 vehéir[0m
+  [BROADCAST] Éx 40:38: ʻanán (ʻal) yomam — externo: vecinos=7 mov=POSA (yajanu)
+[0;32mI (144096) hashmal.menora.lora: spi_recibir[2600]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (145096) hashmal.menora.lora: spi_recibir[2620]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (145426) hashmal.epd: Refresco completo -- masakh actualizado[0m
+[0;32mI (145426) hashmal.menu: Estado dibujado (Éx 40:34)[0m
+[0;32mI (146096) hashmal.menora.lora: spi_recibir[2640]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (147096) hashmal.menora.lora: spi_recibir[2660]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (148096) hashmal.menora.lora: spi_recibir[2680]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (148756) hashmal.menora.routing: vecinos_contar: 7 vecinos alcanzables (fase 1 single-hop; fase 2 usará los 22 geviʻím — 1 Re 7:49)[0m
+[0;32mI (148756) hashmal.aceite.anan_esh: anan/esh: DIA (anan) + POSA (yajanu) -> color=1 patron=1 (vecinos=7 shaon=16 miqlat_local=0 refugiados=0)[0m
+[0;32mI (148766) hashmal.menora.formato: empaquetar: tipo=0x02 orig=4 dst=0xFF tam=4 (total=9, v.38 majtot)[0m
+[0;33mW (148776) hashmal.menora.mutsaqot: seleccionar: canal=0 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (149096) hashmal.menora.lora: spi_recibir[2700]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (150096) hashmal.menora.lora: spi_recibir[2720]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (150786) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20473 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (150796) hashmal.menora.routing: enviar canal 0: 9 B vía mutsaqá 0 (tx=8, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (150806) hashmal.menora.mutsaqot: seleccionar: canal=1 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (151096) hashmal.menora.lora: spi_recibir[2740]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (152096) hashmal.menora.lora: spi_recibir[2760]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (152816) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20436 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (152816) hashmal.menora.routing: enviar canal 1: 9 B vía mutsaqá 0 (tx=8, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (152826) hashmal.menora.mutsaqot: seleccionar: canal=2 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (153096) hashmal.menora.lora: spi_recibir[2780]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (154096) hashmal.menora.lora: spi_recibir[2800]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (154846) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20471 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (154846) hashmal.menora.routing: enviar canal 2: 9 B vía mutsaqá 0 (tx=8, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (154856) hashmal.menora.mutsaqot: seleccionar: canal=3 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (155096) hashmal.menora.lora: spi_recibir[2820]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (156096) hashmal.menora.lora: spi_recibir[2840]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (156866) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20486 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (156876) hashmal.menora.routing: enviar canal 3: 9 B vía mutsaqá 0 (tx=8, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (156886) hashmal.menora.mutsaqot: seleccionar: canal=4 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (157096) hashmal.menora.lora: spi_recibir[2860]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (158096) hashmal.menora.lora: spi_recibir[2880]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (158896) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20455 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (158906) hashmal.menora.routing: enviar canal 4: 9 B vía mutsaqá 0 (tx=8, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (158916) hashmal.menora.mutsaqot: seleccionar: canal=5 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (159096) hashmal.menora.lora: spi_recibir[2900]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (160096) hashmal.menora.lora: spi_recibir[2920]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (160926) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20494 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (160926) hashmal.menora.routing: enviar canal 5: 9 B vía mutsaqá 0 (tx=8, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (160936) hashmal.menora.mutsaqot: seleccionar: canal=6 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (161096) hashmal.menora.lora: spi_recibir[2940]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (162096) hashmal.menora.lora: spi_recibir[2960]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (162956) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20464 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (162956) hashmal.menora.routing: enviar canal 6: 9 B vía mutsaqá 0 (tx=8, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;32mI (162966) hashmal.menora.routing: broadcast: 7/7 éxitos (fallos=0) — Éx 25:37 vehéir[0m
+  [BROADCAST] Éx 40:38: ʻanán (ʻal) yomam — externo: vecinos=7 mov=POSA (yajanu)
+[0;32mI (163096) hashmal.menora.lora: spi_recibir[2980]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (164096) hashmal.menora.lora: spi_recibir[3000]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (165096) hashmal.menora.lora: spi_recibir[3020]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (166096) hashmal.menora.lora: spi_recibir[3040]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (167096) hashmal.menora.lora: spi_recibir[3060]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (167986) hashmal.menora.routing: vecinos_contar: 7 vecinos alcanzables (fase 1 single-hop; fase 2 usará los 22 geviʻím — 1 Re 7:49)[0m
+[0;32mI (167986) hashmal.aceite.anan_esh: anan/esh: DIA (anan) + POSA (yajanu) -> color=1 patron=1 (vecinos=7 shaon=16 miqlat_local=0 refugiados=0)[0m
+[0;32mI (167996) hashmal.menora.formato: empaquetar: tipo=0x02 orig=4 dst=0xFF tam=4 (total=9, v.38 majtot)[0m
+[0;33mW (168006) hashmal.menora.mutsaqot: seleccionar: canal=0 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (168096) hashmal.menora.lora: spi_recibir[3080]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (169096) hashmal.menora.lora: spi_recibir[3100]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (170016) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20455 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (170026) hashmal.menora.routing: enviar canal 0: 9 B vía mutsaqá 0 (tx=9, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (170036) hashmal.menora.mutsaqot: seleccionar: canal=1 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (170096) hashmal.menora.lora: spi_recibir[3120]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (171096) hashmal.menora.lora: spi_recibir[3140]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (172046) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20474 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (172046) hashmal.menora.routing: enviar canal 1: 9 B vía mutsaqá 0 (tx=9, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (172056) hashmal.menora.mutsaqot: seleccionar: canal=2 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (172096) hashmal.menora.lora: spi_recibir[3160]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (173096) hashmal.menora.lora: spi_recibir[3180]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (174076) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20479 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (174076) hashmal.menora.routing: enviar canal 2: 9 B vía mutsaqá 0 (tx=9, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (174086) hashmal.menora.mutsaqot: seleccionar: canal=3 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (174096) hashmal.menora.lora: spi_recibir[3200]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (175116) hashmal.menora.lora: spi_recibir[3220]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (176106) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20465 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (176106) hashmal.menora.routing: enviar canal 3: 9 B vía mutsaqá 0 (tx=9, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;32mI (176116) hashmal.menora.lora: spi_recibir[3240]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (176126) hashmal.menora.mutsaqot: seleccionar: canal=4 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (177126) hashmal.menora.lora: spi_recibir[3260]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (178126) hashmal.menora.lora: spi_recibir[3280]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (178146) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20461 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (178146) hashmal.menora.routing: enviar canal 4: 9 B vía mutsaqá 0 (tx=9, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (178156) hashmal.menora.mutsaqot: seleccionar: canal=5 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (179126) hashmal.menora.lora: spi_recibir[3300]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (180126) hashmal.menora.lora: spi_recibir[3320]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (180166) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20458 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (180176) hashmal.menora.routing: enviar canal 5: 9 B vía mutsaqá 0 (tx=9, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (180186) hashmal.menora.mutsaqot: seleccionar: canal=6 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (181126) hashmal.menora.lora: spi_recibir[3340]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (182126) hashmal.menora.lora: spi_recibir[3360]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (182196) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20478 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (182206) hashmal.menora.routing: enviar canal 6: 9 B vía mutsaqá 0 (tx=9, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;32mI (182216) hashmal.menora.routing: broadcast: 7/7 éxitos (fallos=0) — Éx 25:37 vehéir[0m
+  [BROADCAST] Éx 40:38: ʻanán (ʻal) yomam — externo: vecinos=7 mov=POSA (yajanu)
+[0;32mI (183126) hashmal.menora.lora: spi_recibir[3380]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (184126) hashmal.menora.lora: spi_recibir[3400]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (185126) hashmal.menora.lora: spi_recibir[3420]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (186126) hashmal.menora.lora: spi_recibir[3440]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (187126) hashmal.menora.lora: spi_recibir[3460]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (187226) hashmal.menora.routing: vecinos_contar: 7 vecinos alcanzables (fase 1 single-hop; fase 2 usará los 22 geviʻím — 1 Re 7:49)[0m
+[0;32mI (187226) hashmal.aceite.anan_esh: anan/esh: DIA (anan) + POSA (yajanu) -> color=1 patron=1 (vecinos=7 shaon=16 miqlat_local=0 refugiados=0)[0m
+[0;32mI (187236) hashmal.menora.formato: empaquetar: tipo=0x02 orig=4 dst=0xFF tam=4 (total=9, v.38 majtot)[0m
+[0;33mW (187246) hashmal.menora.mutsaqot: seleccionar: canal=0 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (188126) hashmal.menora.lora: spi_recibir[3480]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (189126) hashmal.menora.lora: spi_recibir[3500]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (189256) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20460 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (189266) hashmal.menora.routing: enviar canal 0: 9 B vía mutsaqá 0 (tx=10, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (189276) hashmal.menora.mutsaqot: seleccionar: canal=1 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (190126) hashmal.menora.lora: spi_recibir[3520]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (191126) hashmal.menora.lora: spi_recibir[3540]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (191286) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20456 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (191286) hashmal.menora.routing: enviar canal 1: 9 B vía mutsaqá 0 (tx=10, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (191296) hashmal.menora.mutsaqot: seleccionar: canal=2 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (192126) hashmal.menora.lora: spi_recibir[3560]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (193126) hashmal.menora.lora: spi_recibir[3580]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (193316) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20464 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (193316) hashmal.menora.routing: enviar canal 2: 9 B vía mutsaqá 0 (tx=10, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (193326) hashmal.menora.mutsaqot: seleccionar: canal=3 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (194126) hashmal.menora.lora: spi_recibir[3600]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (195126) hashmal.menora.lora: spi_recibir[3620]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (195336) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20461 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (195346) hashmal.menora.routing: enviar canal 3: 9 B vía mutsaqá 0 (tx=10, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (195356) hashmal.menora.mutsaqot: seleccionar: canal=4 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (196126) hashmal.menora.lora: spi_recibir[3640]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (197126) hashmal.menora.lora: spi_recibir[3660]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (197366) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20462 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (197376) hashmal.menora.routing: enviar canal 4: 9 B vía mutsaqá 0 (tx=10, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (197386) hashmal.menora.mutsaqot: seleccionar: canal=5 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (198126) hashmal.menora.lora: spi_recibir[3680]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (199126) hashmal.menora.lora: spi_recibir[3700]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (199396) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20471 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (199396) hashmal.menora.routing: enviar canal 5: 9 B vía mutsaqá 0 (tx=10, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (199406) hashmal.menora.mutsaqot: seleccionar: canal=6 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (200126) hashmal.menora.lora: spi_recibir[3720]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (201126) hashmal.menora.lora: spi_recibir[3740]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (201426) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20447 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (201426) hashmal.menora.routing: enviar canal 6: 9 B vía mutsaqá 0 (tx=10, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;32mI (201436) hashmal.menora.routing: broadcast: 7/7 éxitos (fallos=0) — Éx 25:37 vehéir[0m
+  [BROADCAST] Éx 40:38: ʻanán (ʻal) yomam — externo: vecinos=7 mov=POSA (yajanu)
+[0;32mI (202126) hashmal.menora.lora: spi_recibir[3760]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (203126) hashmal.menora.lora: spi_recibir[3780]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (204126) hashmal.menora.lora: spi_recibir[3800]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (205126) hashmal.menora.lora: spi_recibir[3820]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (205426) hashmal.epd: Enviando framebuffer al display...[0m
+[0;32mI (205436) hashmal.epd: Power ON -- esperando charge pump...[0m
+[0;32mI (205436) hashmal.epd: Refresh enviado -- esperando e-paper (2-4s)...[0m
+[0;32mI (206126) hashmal.menora.lora: spi_recibir[3840]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (206456) hashmal.menora.routing: vecinos_contar: 7 vecinos alcanzables (fase 1 single-hop; fase 2 usará los 22 geviʻím — 1 Re 7:49)[0m
+[0;32mI (206456) hashmal.aceite.anan_esh: anan/esh: DIA (anan) + POSA (yajanu) -> color=1 patron=1 (vecinos=7 shaon=16 miqlat_local=0 refugiados=0)[0m
+[0;32mI (206466) hashmal.menora.formato: empaquetar: tipo=0x02 orig=4 dst=0xFF tam=4 (total=9, v.38 majtot)[0m
+[0;33mW (206476) hashmal.menora.mutsaqot: seleccionar: canal=0 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (207126) hashmal.menora.lora: spi_recibir[3860]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (208126) hashmal.menora.lora: spi_recibir[3880]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (208486) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20460 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (208496) hashmal.menora.routing: enviar canal 0: 9 B vía mutsaqá 0 (tx=11, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (208506) hashmal.menora.mutsaqot: seleccionar: canal=1 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (208526) hashmal.epd: Refresco completo -- masakh actualizado[0m
+[0;32mI (208526) hashmal.menu: Estado dibujado (Éx 40:34)[0m
+[0;32mI (209126) hashmal.menora.lora: spi_recibir[3900]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (210126) hashmal.menora.lora: spi_recibir[3920]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (210516) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20456 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (210516) hashmal.menora.routing: enviar canal 1: 9 B vía mutsaqá 0 (tx=11, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (210526) hashmal.menora.mutsaqot: seleccionar: canal=2 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (211126) hashmal.menora.lora: spi_recibir[3940]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (212126) hashmal.menora.lora: spi_recibir[3960]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (212546) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20478 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (212546) hashmal.menora.routing: enviar canal 2: 9 B vía mutsaqá 0 (tx=11, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (212556) hashmal.menora.mutsaqot: seleccionar: canal=3 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (213126) hashmal.menora.lora: spi_recibir[3980]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (214126) hashmal.menora.lora: spi_recibir[4000]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (214566) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20475 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (214576) hashmal.menora.routing: enviar canal 3: 9 B vía mutsaqá 0 (tx=11, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (214586) hashmal.menora.mutsaqot: seleccionar: canal=4 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (215126) hashmal.menora.lora: spi_recibir[4020]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (216126) hashmal.menora.lora: spi_recibir[4040]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (216596) hashmal.menora.lora: spi_enviar: TxDone TIMEOUT [2000ms] polls=20486 IRQ=0x0000 status=0xAA (ChipMode=0x2 CommandStatus=0x5) BUSY=0 DIO1=0 — TX no completó RF (Éx 39:43)[0m
+[0;32mI (216606) hashmal.menora.routing: enviar canal 4: 9 B vía mutsaqá 0 (tx=11, Éx 25:37 vehéir + Zac 4:6 berují)[0m
+[0;33mW (216616) hashmal.menora.mutsaqot: seleccionar: canal=5 tam=9 → LORA fallback (tamíd, Éx 27:21) — ninguna mutsaqá pasó berují[0m
+[0;32mI (217126) hashmal.menora.lora: spi_recibir[4060]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;32mI (218126) hashmal.menora.lora: spi_recibir[4080]: DIO1=0 IRQ=0x0000 [status=0xAA irqH=0x00 irqL=0x00] (TxDone=0 RxDone=0 CrcErr=0 Timeout=0)[0m
+[0;33mW (218626) hashmal.menora.lora:
